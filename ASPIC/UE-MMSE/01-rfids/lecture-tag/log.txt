@@ -1,0 +1,64 @@
+Script démarré sur 2021-10-14 13:19:22+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="197" LINES="18"]
+]0;aribeiropint@corba: /autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[01;32maribeiropint@corba[00m:[01;34m/autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[00m$ ls .[Krm -rf RemoteSystemsTempFiles/ls[K .[Kpt[Kython3 launch_tag.py 
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f0f09f10000104e0df41
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+000081f2940e000104e07b65
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+0000f618df10000104e0cf40
+^CTraceback (most recent call last):
+  File "launch_tag.py", line 9, in <module>
+    tag = serial.read(size=12)
+  File "/net/ens/python/python3.8/lib/python3.8/site-packages/serial/serialposix.py", line 565, in read
+    ready, _, _ = select.select([self.fd, self.pipe_abort_read_r], [], [], timeout.time_left())
+KeyboardInterrupt
+
+]0;aribeiropint@corba: /autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[01;32maribeiropint@corba[00m:[01;34m/autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[00m$ python3 launch_tag.py ls .[K[K .python3 launch_tag.py [Kexit
+
+Script terminé sur 2021-10-14 13:19:42+02:00 [COMMAND_EXIT_CODE="130"]

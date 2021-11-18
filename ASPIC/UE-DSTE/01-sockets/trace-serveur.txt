@@ -1,0 +1,19 @@
+Script démarré sur 2021-09-17 11:40:12+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;alhoffmann@buffy: ~/espaces/www/ASPIC/UE-DSTE/01-sockets[01;32malhoffmann@buffy[00m:[01;34m~/espaces/www/ASPIC/UE-DSTE/01-sockets[00m$ javac *.java
+]0;alhoffmann@buffy: ~/espaces/www/ASPIC/UE-DSTE/01-sockets[01;32malhoffmann@buffy[00m:[01;34m~/espaces/www/ASPIC/UE-DSTE/01-sockets[00m$ java Serveur
+client connected
+Client name : Alexis
+Alexis : 
+Alexis : hi
+Alexis : is it working ?
+No
+Exception in thread "main" java.io.EOFException
+	at java.base/java.io.DataInputStream.readUnsignedShort(DataInputStream.java:345)
+	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:594)
+	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:569)
+	at Serveur.main(Serveur.java:27)
+]0;alhoffmann@buffy: ~/espaces/www/ASPIC/UE-DSTE/01-sockets[01;32malhoffmann@buffy[00m:[01;34m~/espaces/www/ASPIC/UE-DSTE/01-sockets[00m$ No
+No: command not found
+]0;alhoffmann@buffy: ~/espaces/www/ASPIC/UE-DSTE/01-sockets[01;32malhoffmann@buffy[00m:[01;34m~/espaces/www/ASPIC/UE-DSTE/01-sockets[00m$ exit
+
+Script terminé sur 2021-09-17 11:42:49+02:00 [COMMAND_EXIT_CODE="127"]

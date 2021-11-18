@@ -1,0 +1,84 @@
+Script démarré sur 2021-10-14 14:08:23+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="182" LINES="18"]
+]0;aribeiropint@corba: /autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[01;32maribeiropint@corba[00m:[01;34m/autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[00m$ python3 launch_tag.py ls .[Kpython3 launch_tag.py ls .[K[Krm -rf RemoteSystemsTempFiles/ls[Krm -rf RemoteSystemsTempFiles/ls[K .python3 launch_tag.py [Kpt[Kython3 security_tag.py 
+
+
+CEO access
+0000f618df10000104e0cf40
+CEO access
+0000f618df10000104e0cf40
+CEO access
+0000f618df10000104e0cf40
+CEO access
+0000f618df10000104e0cf40
+CEO access
+0000f618df10000104e0cf40
+CEO access
+0000f618df10000104e0cf40
+CEO access
+0000f618df10000104e0cf40
+CEO access
+0000f618df10000104e0cf40
+CEO access
+0000f618df10000104e0cf40
+CEO access
+0000f618df10000104e0cf40
+CEO access
+0000f618df10000104e0cf40
+CEO access
+0000f618df10000104e0cf40
+
+
+
+
+
+
+
+
+
+
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+access denied
+000081f2940e000104e07b65
+
+
+
+
+^CTraceback (most recent call last):
+  File "security_tag.py", line 14, in <module>
+    tag = serial.read(size=12)
+  File "/net/ens/python/python3.8/lib/python3.8/site-packages/serial/serialposix.py", line 565, in read
+    ready, _, _ = select.select([self.fd, self.pipe_abort_read_r], [], [], timeout.time_left())
+KeyboardInterrupt
+
+]0;aribeiropint@corba: /autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[01;32maribeiropint@corba[00m:[01;34m/autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[00m$ exit
+
+Script terminé sur 2021-10-14 14:08:57+02:00 [COMMAND_EXIT_CODE="130"]

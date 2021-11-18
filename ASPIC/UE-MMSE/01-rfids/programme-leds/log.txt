@@ -1,0 +1,8 @@
+Script démarré sur 2021-10-08 10:14:37+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="196" LINES="16"]
+]0;aribeiropint@troi: /autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[01;32maribeiropint@troi[00m:[01;34m/autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[00m$ exitcode .d espaces/travail/M2/Robotique-Méchatronique/ode .[K[2Pexit[K./launch_d_red_led.sh 1
+Turn On Red LED
+]0;aribeiropint@troi: /autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[01;32maribeiropint@troi[00m:[01;34m/autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[00m$ ./launch_d_red_led.sh 1[K0
+Turn Off Red LED
+]0;aribeiropint@troi: /autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[01;32maribeiropint@troi[00m:[01;34m/autofs/unitytravail/travail/aribeiropint/M2/Materiels-Mobiles[00m$ exit
+
+Script terminé sur 2021-10-08 10:14:55+02:00 [COMMAND_EXIT_CODE="0"]

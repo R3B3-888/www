@@ -1,0 +1,14 @@
+Le script a débuté sur ven. 22 nov. 2019 14:35:41 CET
+]0;alhoffmann@scytale: ~/espaces/www/proj-techno/usi/6[01;32malhoffmann@scytale[00m:[01;34m~/espaces/www/proj-techno/usi/6[00m$ toucb code[K[K[K[K[K[K[K[K[K[Kecho *
+readme.txt trace
+]0;alhoffmann@scytale: ~/espaces/www/proj-techno/usi/6[01;32malhoffmann@scytale[00m:[01;34m~/espaces/www/proj-techno/usi/6[00m$ *
+readme.txt: command not found
+]0;alhoffmann@scytale: ~/espaces/www/proj-techno/usi/6[01;32malhoffmann@scytale[00m:[01;34m~/espaces/www/proj-techno/usi/6[00m$ '*'
+*: command not found
+]0;alhoffmann@scytale: ~/espaces/www/proj-techno/usi/6[01;32malhoffmann@scytale[00m:[01;34m~/espaces/www/proj-techno/usi/6[00m$ echo *
+readme.txt trace
+]0;alhoffmann@scytale: ~/espaces/www/proj-techno/usi/6[01;32malhoffmann@scytale[00m:[01;34m~/espaces/www/proj-techno/usi/6[00m$ `*`
+readme.txt: command not found
+]0;alhoffmann@scytale: ~/espaces/www/proj-techno/usi/6[01;32malhoffmann@scytale[00m:[01;34m~/espaces/www/proj-techno/usi/6[00m$ exit
+
+Script terminé sur ven. 22 nov. 2019 14:40:50 CET

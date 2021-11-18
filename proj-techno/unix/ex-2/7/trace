@@ -1,0 +1,2981 @@
+Le script a débuté sur ven. 22 nov. 2019 15:05:35 CET
+]0;alhoffmann@scytale: ~/espaces/www/proj-techno/usi/7[01;32malhoffmann@scytale[00m:[01;34m~/espaces/www/proj-techno/usi/7[00m$ cat rep
+#!/bin/bash
+
+ls $*
+]0;alhoffmann@scytale: ~/espaces/www/proj-techno/usi/7[01;32malhoffmann@scytale[00m:[01;34m~/espaces/www/proj-techno/usi/7[00m$ ./rep
+readme.txt  rep  trace
+]0;alhoffmann@scytale: ~/espaces/www/proj-techno/usi/7[01;32malhoffmann@scytale[00m:[01;34m~/espaces/www/proj-techno/usi/7[00m$ ./rep /etc/*
+/etc/a2ps.cfg
+/etc/a2ps-site.cfg
+/etc/adduser.conf
+/etc/adjtime
+/etc/airstrikerc
+/etc/alex4.ini
+/etc/anacrontab
+/etc/anacrontab.dpkg-dist
+/etc/apg.conf
+/etc/appstream.conf
+/etc/asound.conf
+/etc/astrometry.cfg
+/etc/at.deny
+/etc/auto.eta
+/etc/autofs.conf
+/etc/auto.ftp
+/etc/auto.master
+/etc/auto.master.ucf-dist
+/etc/auto.misc
+/etc/auto.net
+/etc/auto.netapp
+/etc/auto.netapp.account
+/etc/auto.netapp_ro
+/etc/auto.netapp_ro.account
+/etc/auto.smb
+/etc/auto.unityaccount
+/etc/auto.unitytravail
+/etc/avrdude.conf
+/etc/bash.bashrc
+/etc/bash_completion
+/etc/bindresvport.blacklist
+/etc/bloboats.dirs
+/etc/bogofilter.cf
+/etc/ca-certificates.conf
+/etc/ca-certificates.conf.dpkg-old
+/etc/catdocrc
+/etc/celestia.cfg
+/etc/chktexrc
+/etc/complete.tcsh
+/etc/cowpoke.conf
+/etc/crontab
+/etc/crypttab
+/etc/csh.cshrc
+/etc/csh.login
+/etc/csh.logout
+/etc/daemon.conf
+/etc/debconf.conf
+/etc/debian_version
+/etc/debsums-ignore
+/etc/deluser.conf
+/etc/devscripts.conf
+/etc/discover-modprobe.conf
+/etc/dleyna-renderer-service.conf
+/etc/dleyna-server-service.conf
+/etc/dput.cf
+/etc/drirc
+/etc/efax.rc
+/etc/environment
+/etc/ethertypes
+/etc/ffserver.conf
+/etc/filesystems
+/etc/freefem++.pref
+/etc/fstab
+/etc/fstab.beforeWindows
+/etc/fstab.old
+/etc/fuse.conf
+/etc/gai.conf
+/etc/gamine.conf
+/etc/gearhead2.conf
+/etc/gearhead.conf
+/etc/gkrellmd.conf
+/etc/gnome-vfs-mime-magic
+/etc/gozerrc
+/etc/gpm.conf
+/etc/gprc
+/etc/group
+/etc/group-
+/etc/group.org
+/etc/gshadow
+/etc/gshadow-
+/etc/gssapi_mech.conf
+/etc/gtansrc
+/etc/hddtemp.db
+/etc/hdparm.conf
+/etc/hdparm.conf.dpkg-dist
+/etc/heroesrc
+/etc/host.conf
+/etc/hostname
+/etc/hosts
+/etc/hosts.allow
+/etc/hosts.deny
+/etc/i3blocks.conf
+/etc/i3status.conf
+/etc/i686-w64-mingw32-ocamlfind.conf
+/etc/idmapd.conf
+/etc/inetd.conf
+/etc/inittab
+/etc/inittab_1482147746_Mon_Dec_19_12_42_26_2016_.cfsaved
+/etc/inputrc
+/etc/insserv.conf
+/etc/issue
+/etc/issue.net
+/etc/kderc
+/etc/kde-user-profile
+/etc/kernel-img.conf
+/etc/krb5.conf
+/etc/ksysguarddrc
+/etc/laferc
+/etc/latex2html.conf
+/etc/LatexMk
+/etc/LCDd.conf
+/etc/lcdexec.conf
+/etc/lcdproc.conf
+/etc/lcdvc.conf
+/etc/lcovrc
+/etc/ldap.conf
+/etc/ldap.conf.dpkg-dist
+/etc/ldc.conf
+/etc/ld.so.cache
+/etc/ld.so.conf
+/etc/lftp.conf
+/etc/libao.conf
+/etc/libaudit.conf
+/etc/libccid_Info.plist
+/etc/libguestfs-tools.conf
+/etc/libnss-ldap.conf
+/etc/lintianrc
+/etc/lisp-config.lisp
+/etc/lnpd.conf
+/etc/locale.alias
+/etc/locale.alias.dpkg-dist
+/etc/locale.gen
+/etc/localtime
+/etc/login.defs
+/etc/logrotate.conf
+/etc/lsb-release
+/etc/lsh_host_key
+/etc/lsh_host_key.pub
+/etc/ltrace.conf
+/etc/lxdm-environment
+/etc/machine-id
+/etc/magic
+/etc/magic.mime
+/etc/magicor.conf
+/etc/magicor-editor.conf
+/etc/mailcap
+/etc/mailcap.order
+/etc/mailname
+/etc/mailname_1482147746_Mon_Dec_19_12_42_26_2016_.cfsaved
+/etc/mail.rc
+/etc/manpath.config
+/etc/matplotlibrc
+/etc/mecabrc
+/etc/mime.types
+/etc/minidlna.conf
+/etc/mke2fs.conf
+/etc/mkshrc
+/etc/modules
+/etc/mongodb.conf
+/etc/monopd.conf
+/etc/moria-hours
+/etc/motd
+/etc/motd.tail
+/etc/mtab
+/etc/mtools.conf
+/etc/multitail.conf
+/etc/multitail.conf.dpkg-dist
+/etc/Muttrc
+/etc/nanorc
+/etc/netconfig
+/etc/netscsid.conf
+/etc/networks
+/etc/nilfs_cleanerd.conf
+/etc/nsca.cfg
+/etc/nscd.conf
+/etc/nscd.conf.dpkg-dist
+/etc/nsswitch.conf
+/etc/nsswitch.conf.boot
+/etc/nsswitch.conf.db
+/etc/nsswitch.conf.ldap
+/etc/ntp.conf
+/etc/ntp.conf.dpkg-dist
+/etc/nvcc.profile
+/etc/ocamlfind.conf
+/etc/octave.conf
+/etc/odbc.ini
+/etc/odbcinst.ini
+/etc/omreg.cfg
+/etc/os-release
+/etc/pam.conf
+/etc/pam_ldap.conf
+/etc/papersize
+/etc/passwd
+/etc/passwd-
+/etc/passwd.org
+/etc/pbuilderrc
+/etc/pdfpcrc
+/etc/pnm2ppa.conf
+/etc/prelink.conf
+/etc/presage.xml
+/etc/profile
+/etc/protocols
+/etc/qemu-ifdown
+/etc/qemu-ifup
+/etc/qstat.cfg
+/etc/quilt.quiltrc
+/etc/quotagrpadmins
+/etc/quotatab
+/etc/rc.local
+/etc/rearj.cfg
+/etc/reportbug.conf
+/etc/request-key.conf
+/etc/resolv.conf
+/etc/rmt
+/etc/rpc
+/etc/rssh.conf
+/etc/rsyslog.conf
+/etc/rsyslog.conf.dpkg-dist
+/etc/rygel.conf
+/etc/sbcl.rc
+/etc/screenrc
+/etc/securetty
+/etc/send_nsca.cfg
+/etc/sensors3.conf
+/etc/services
+/etc/sestatus.conf
+/etc/shadow
+/etc/shadow-
+/etc/shadow.org
+/etc/shells
+/etc/sjeng.rc
+/etc/slashemrc.x11
+/etc/smi.conf
+/etc/solfege
+/etc/srp_daemon.conf
+/etc/staff-group-for-usr-local
+/etc/subgid
+/etc/subgid-
+/etc/subuid
+/etc/subuid-
+/etc/sudoers
+/etc/sudoers.dpkg-dist
+/etc/sunflowrc
+/etc/sweeprc
+/etc/sysctl.conf
+/etc/sysfs.conf
+/etc/timezone
+/etc/trigger-rally.config.defs
+/etc/typespeedrc
+/etc/ucf.conf
+/etc/updatedb.conf
+/etc/updatedb.conf.dpkg-dist
+/etc/usb_modeswitch.conf
+/etc/usplash.conf
+/etc/vdpau_wrapper.cfg
+/etc/vgrabbj.conf
+/etc/warnquota.conf
+/etc/wgetrc
+/etc/wings3d.rc
+/etc/wmppprc
+/etc/wodim.conf
+/etc/x86_64-w64-mingw32-ocamlfind.conf
+/etc/xmedconrc
+/etc/zsh_command_not_found
+
+/etc/acpi:
+ejectbtn.sh  fglrx-powermode.sh        powerbtn.sh
+events	     powerbtn-acpi-support.sh  powerbtn.sh.dpkg-bak
+
+/etc/alsa:
+conf.d
+
+/etc/alternatives:
+ABORT.7.gz
+aclocal
+aclocal.1.gz
+acpidump
+acpixtract
+activipy_tester
+activipy_tester.1.gz
+ada-mode.info.gz
+adventure
+adventure.6.gz
+alembic
+ALTER_AGGREGATE.7.gz
+ALTER_COLLATION.7.gz
+ALTER_CONVERSION.7.gz
+ALTER_DATABASE.7.gz
+ALTER_DEFAULT_PRIVILEGES.7.gz
+ALTER_DOMAIN.7.gz
+ALTER_EVENT_TRIGGER.7.gz
+ALTER_EXTENSION.7.gz
+ALTER_FOREIGN_DATA_WRAPPER.7.gz
+ALTER_FOREIGN_TABLE.7.gz
+ALTER_FUNCTION.7.gz
+ALTER_GROUP.7.gz
+ALTER_INDEX.7.gz
+ALTER_LANGUAGE.7.gz
+ALTER_LARGE_OBJECT.7.gz
+ALTER_MATERIALIZED_VIEW.7.gz
+ALTER_OPERATOR.7.gz
+ALTER_OPERATOR_CLASS.7.gz
+ALTER_OPERATOR_FAMILY.7.gz
+ALTER_POLICY.7.gz
+ALTER_ROLE.7.gz
+ALTER_RULE.7.gz
+ALTER_SCHEMA.7.gz
+ALTER_SEQUENCE.7.gz
+ALTER_SERVER.7.gz
+ALTER_SYSTEM.7.gz
+ALTER_TABLE.7.gz
+ALTER_TABLESPACE.7.gz
+ALTER_TEXT_SEARCH_CONFIGURATION.7.gz
+ALTER_TEXT_SEARCH_DICTIONARY.7.gz
+ALTER_TEXT_SEARCH_PARSER.7.gz
+ALTER_TEXT_SEARCH_TEMPLATE.7.gz
+ALTER_TRIGGER.7.gz
+ALTER_TYPE.7.gz
+ALTER_USER.7.gz
+ALTER_USER_MAPPING.7.gz
+ALTER_VIEW.7.gz
+ANALYZE.7.gz
+animate
+animate.1.gz
+animate-im6
+animate-im6.1.gz
+aodh
+appletviewer
+aptitude
+aptitude.8.gz
+aptitude.cs.8.gz
+aptitude.de.8.gz
+aptitude.es.8.gz
+aptitude.fi.8.gz
+aptitude.fr.8.gz
+aptitude.gl.8.gz
+aptitude.it.8.gz
+aptitude.ja.8.gz
+aptitude.pl.8.gz
+assembly-linker
+auth.info.gz
+autokey
+autokey.1.gz
+automake
+automake.1.gz
+autotype.info.gz
+awk
+awk.1.gz
+bandit
+bandit-baseline
+bandit-config-generator
+barbican
+bashate
+BEGIN.7.gz
+bf_compact
+bf_copy
+bf_tar
+bibtex
+bibtex.1.gz
+blas.pc
+bogofilter
+bogolexer
+bogotune
+bogoupgrade
+bogoutil
+boom
+boom.6.gz
+bovine.info.gz
+breathe-apidoc
+btcompletedir
+btcompletedir.1.gz
+btdownloadcurses
+btdownloadcurses.1.gz
+btdownloadheadless
+btdownloadheadless.1.gz
+btlaunchmany
+btlaunchmany.1.gz
+btlaunchmanycurses
+btlaunchmanycurses.1.gz
+btmakemetafile
+btmakemetafile.1.gz
+btreannounce
+btreannounce.1.gz
+btrename
+btrename.1.gz
+btshowmetainfo
+btshowmetainfo.1.gz
+bttrack
+bttrack.1.gz
+builtins.7.gz
+c++
+c89
+c89.1.gz
+c99
+c99.1.gz
+cairosvg
+cairosvg.1.gz
+calc.info.gz
+cc
+ccmode.info.gz
+ceilometer
+celestia
+celestia.1.gz
+CHECKPOINT.7.gz
+chromium-javaplugin.so
+cil-disassembler
+cinder
+clhsdb
+cli
+cli.1.gz
+cli-al.1.gz
+cli-csc.1.gz
+cli-gacutil.1.gz
+cli-ildasm.1.gz
+cl.info.gz
+cli-resgen.1.gz
+cli-sn.1.gz
+CLOSE.7.gz
+CLUSTER.7.gz
+clusterdb.1.gz
+COMMENT.7.gz
+COMMIT.7.gz
+COMMIT_PREPARED.7.gz
+compare
+compare.1.gz
+compare-im6
+compare-im6.1.gz
+composite
+composite.1.gz
+composite-im6
+composite-im6.1.gz
+conjure
+conjure.1.gz
+conjure-im6
+conjure-im6.1.gz
+ControlPanel
+convert
+convert.1.gz
+convert-im6
+convert-im6.1.gz
+COPY.7.gz
+cpp
+CREATE_ACCESS_METHOD.7.gz
+CREATE_AGGREGATE.7.gz
+CREATE_CAST.7.gz
+CREATE_COLLATION.7.gz
+CREATE_CONVERSION.7.gz
+CREATE_DATABASE.7.gz
+createdb.1.gz
+CREATE_DOMAIN.7.gz
+CREATE_EVENT_TRIGGER.7.gz
+CREATE_EXTENSION.7.gz
+CREATE_FOREIGN_DATA_WRAPPER.7.gz
+CREATE_FOREIGN_TABLE.7.gz
+CREATE_FUNCTION.7.gz
+CREATE_GROUP.7.gz
+CREATE_INDEX.7.gz
+createlang.1.gz
+CREATE_LANGUAGE.7.gz
+CREATE_MATERIALIZED_VIEW.7.gz
+CREATE_OPERATOR.7.gz
+CREATE_OPERATOR_CLASS.7.gz
+CREATE_OPERATOR_FAMILY.7.gz
+CREATE_POLICY.7.gz
+CREATE_ROLE.7.gz
+CREATE_RULE.7.gz
+CREATE_SCHEMA.7.gz
+CREATE_SEQUENCE.7.gz
+CREATE_SERVER.7.gz
+CREATE_TABLE.7.gz
+CREATE_TABLE_AS.7.gz
+CREATE_TABLESPACE.7.gz
+CREATE_TEXT_SEARCH_CONFIGURATION.7.gz
+CREATE_TEXT_SEARCH_DICTIONARY.7.gz
+CREATE_TEXT_SEARCH_PARSER.7.gz
+CREATE_TEXT_SEARCH_TEMPLATE.7.gz
+CREATE_TRANSFORM.7.gz
+CREATE_TRIGGER.7.gz
+CREATE_TYPE.7.gz
+createuser.1.gz
+CREATE_USER.7.gz
+CREATE_USER_MAPPING.7.gz
+CREATE_VIEW.7.gz
+csh
+csh.1.gz
+c-sharp-compiler
+csscapture
+csscapture.1.gz
+csscombine
+csscombine.1.gz
+cssparse
+cssparse.1.gz
+ctags
+ctags.1.gz
+cymruwhois
+cymruwhois.1.gz
+dbus.info.gz
+DEALLOCATE.7.gz
+DECLARE.7.gz
+DELETE.7.gz
+designate
+desktop-background
+desktop-background.xml
+desktop-grub
+desktop-lockscreen.xml
+desktop-login-background
+desktop-plasma5-wallpaper
+desktop-theme
+dib-run-parts
+dired-x.info.gz
+DISCARD.7.gz
+display
+display.1.gz
+display-im6
+display-im6.1.gz
+djview
+djview.1.gz
+DO.7.gz
+doc8
+doc-tools-build-rst
+doc-tools-check-languages
+doc-tools-update-cli-reference
+doom
+doom.6.gz
+dotlock
+dotlock.1.gz
+DROP_ACCESS_METHOD.7.gz
+DROP_AGGREGATE.7.gz
+DROP_CAST.7.gz
+DROP_COLLATION.7.gz
+DROP_CONVERSION.7.gz
+DROP_DATABASE.7.gz
+dropdb.1.gz
+DROP_DOMAIN.7.gz
+DROP_EVENT_TRIGGER.7.gz
+DROP_EXTENSION.7.gz
+DROP_FOREIGN_DATA_WRAPPER.7.gz
+DROP_FOREIGN_TABLE.7.gz
+DROP_FUNCTION.7.gz
+DROP_GROUP.7.gz
+DROP_INDEX.7.gz
+droplang.1.gz
+DROP_LANGUAGE.7.gz
+DROP_MATERIALIZED_VIEW.7.gz
+DROP_OPERATOR.7.gz
+DROP_OPERATOR_CLASS.7.gz
+DROP_OPERATOR_FAMILY.7.gz
+DROP_OWNED.7.gz
+DROP_POLICY.7.gz
+DROP_ROLE.7.gz
+DROP_RULE.7.gz
+DROP_SCHEMA.7.gz
+DROP_SEQUENCE.7.gz
+DROP_SERVER.7.gz
+DROP_TABLE.7.gz
+DROP_TABLESPACE.7.gz
+DROP_TEXT_SEARCH_CONFIGURATION.7.gz
+DROP_TEXT_SEARCH_DICTIONARY.7.gz
+DROP_TEXT_SEARCH_PARSER.7.gz
+DROP_TEXT_SEARCH_TEMPLATE.7.gz
+DROP_TRANSFORM.7.gz
+DROP_TRIGGER.7.gz
+DROP_TYPE.7.gz
+dropuser.1.gz
+DROP_USER.7.gz
+DROP_USER_MAPPING.7.gz
+DROP_VIEW.7.gz
+ebrowse
+ebrowse.1.gz
+ebrowse.info.gz
+ede.info.gz
+ediff.info.gz
+editor
+edt.info.gz
+eieio.info.gz
+eintr.info.gz
+elisp.info.gz
+emacs
+emacsclient
+emacsclient.1.gz
+emacs-gnutls.info.gz
+emacs.info.gz
+emacs-mime.info.gz
+END.7.gz
+epa.info.gz
+erc.info.gz
+ert.info.gz
+eshell.info.gz
+etags
+etags.1.gz
+eudc.info.gz
+eview
+evim
+eww.info.gz
+ex
+ex.1.gz
+EXECUTE.7.gz
+ex.fr.1.gz
+ex.it.1.gz
+ex.ja.1.gz
+ex.pl.1.gz
+EXPLAIN.7.gz
+ex.ru.1.gz
+extcheck
+f77
+f95
+faked.1.gz
+faked.es.1.gz
+faked.fr.1.gz
+faked.sv.1.gz
+fakeroot
+fakeroot.1.gz
+fakeroot.es.1.gz
+fakeroot.fr.1.gz
+fakeroot.sv.1.gz
+falcon-bench
+FETCH.7.gz
+figlet
+figlet.6.gz
+firefox-javaplugin.so
+flash-mozilla.so
+flymake.info.gz
+fonts-japanese-gothic.ttf
+fonts-japanese-mincho.ttf
+forms.info.gz
+freecraft-data
+frm
+frm.1.gz
+from
+from.1.gz
+fsc
+fsc.1.gz
+ftp
+ftp.1.gz
+futurize
+gcc-arm-none-eabi-include
+gcc-arm-none-eabi-lib
+generate-subunit
+gen_protorpc
+gflags2man
+glance
+global-assembly-cache-tool
+glx
+glx--libEGL.so.1-i386-linux-gnu
+glx--libEGL.so.1-x86_64-linux-gnu
+glx--libEGL.so-x86_64-linux-gnu
+glx--libGLESv1_CM.so.1-i386-linux-gnu
+glx--libGLESv1_CM.so.1-x86_64-linux-gnu
+glx--libGLESv1_CM.so-x86_64-linux-gnu
+glx--libGLESv2.so.2-i386-linux-gnu
+glx--libGLESv2.so.2-x86_64-linux-gnu
+glx--libGLESv2.so-x86_64-linux-gnu
+glx--libGL.so.1-i386-linux-gnu
+glx--libGL.so.1-x86_64-linux-gnu
+glx--libGL.so-x86_64-linux-gnu
+glx--libGLX_indirect.so.0-i386-linux-gnu
+glx--libGLX_indirect.so.0-x86_64-linux-gnu
+glx--libnvidia-cfg.so.1-i386-linux-gnu
+glx--libnvidia-cfg.so.1-x86_64-linux-gnu
+glx--linux-libglx.so
+glx--nvidia-blacklists-nouveau.conf
+glx--nvidia-bug-report.sh
+glx--nvidia-drm-outputclass.conf
+glx--nvidia_drv.so
+glx--nvidia-load.conf
+glx--nvidia-modprobe.conf
+gnome-text-editor
+gnome-text-editor.1.gz
+gnome-www-browser
+gnuplot
+gnuplot.1.gz
+gnuplot.gih
+gnus.info.gz
+gnustep-back-025
+google-chrome
+GRANT.7.gz
+grape
+grape.1.gz
+grep-changelog
+grep-changelog.1.gz
+groovy
+groovy.1.gz
+groovyc
+groovyc.1.gz
+groovyConsole
+groovydoc
+groovysh
+guile
+guile.1.gz
+gunicorn_pecan
+gview
+gvim
+gvimdiff
+h5pcc
+h5pcc.1.gz
+h5pfc
+h5pfc.1.gz
+haskell-compiler
+haskell-compiler.1.gz
+hdf5.pc
+heat
+higan
+hsdb
+html2markdown
+html2markdown.1.gz
+htmlfontify.info.gz
+hy
+hy2py
+hyc
+i686-w64-mingw32-c++
+i686-w64-mingw32-cpp
+i686-w64-mingw32-g++
+i686-w64-mingw32-gcc
+i686-w64-mingw32-gcc-ar
+i686-w64-mingw32-gcc-nm
+i686-w64-mingw32-gcc-ranlib
+i686-w64-mingw32-gcov
+i686-w64-mingw32-gfortran
+i686-w64-mingw32-gnat
+i686-w64-mingw32-gnatbind
+i686-w64-mingw32-gnatchop
+i686-w64-mingw32-gnatclean
+i686-w64-mingw32-gnatfind
+i686-w64-mingw32-gnatkr
+i686-w64-mingw32-gnatlink
+i686-w64-mingw32-gnatls
+i686-w64-mingw32-gnatmake
+i686-w64-mingw32-gnatname
+i686-w64-mingw32-gnatprep
+i686-w64-mingw32-gnatxref
+iceweasel-javaplugin.so
+identify
+identify.1.gz
+identify-im6
+identify-im6.1.gz
+idlj
+idlwave.info.gz
+idmap-plugin
+idmap-plugin.8.gz
+ido.info.gz
+import
+import.1.gz
+IMPORT_FOREIGN_SCHEMA.7.gz
+import-im6
+import-im6.1.gz
+infobrowser
+infobrowser.1.gz
+info.info.gz
+INSERT.7.gz
+inv
+invoke
+ironic
+itweb-settings
+itweb-settings.1.gz
+jar
+jarsigner
+java
+java2groovy
+javac
+javadoc
+javafxpackager
+javah
+javap
+java-rmi.cgi
+java_vm
+javaws
+javaws.1.gz
+jcmd
+jconsole
+jcontrol
+jdb
+jdeps
+jdeps.1.gz
+jenkins-jobs
+jexec
+jhat
+jinfo
+jjs
+jjs.1.gz
+jmap
+jmc
+jps
+jrunscript
+js
+js.1.gz
+jsadebugd
+jsondiff
+jsonpatch
+jsonpath
+jsonpointer
+jsonschema
+jstack
+jstat
+jstatd
+jvisualvm
+kdesu
+keytool
+ksh
+ksh.1.gz
+lapack.pc
+less2scss
+less2scss.1.gz
+lesscpy
+lft
+lft.1.gz
+libblas.a
+libblas.so
+libblas.so.3
+libblas.so.3gf
+libgksu-gconf-defaults
+libGL.so-master
+liblapack.a
+liblapack.so
+liblapack.so.3
+liblapack.so.3gf
+libmpi.so
+libmpi++.so
+lightdm-greeter
+linux
+linux.1.gz
+LISTEN.7.gz
+LOAD.7.gz
+locate
+locate.1.gz
+LOCK.7.gz
+lockutils-wrapper
+love
+love.1.gz
+lua-compiler
+lua-compiler-manual
+lua-interpreter
+lua-manual
+lucli
+lucli.1.gz
+lxdm.conf
+lzcat
+lzcat.1.gz
+lzma
+lzma.1.gz
+magnum
+mail
+Mail
+mail.1.gz
+Mail.1.gz
+mailx
+mailx.1.gz
+mairix-el.info.gz
+make_metadata
+manila
+mdexport
+mecab-dictionary
+merge_metadata
+message.info.gz
+messages
+messages.1.gz
+mh-e.info.gz
+migrate
+migrate-repository
+misaka
+mistral
+mkvinfo
+mogrify
+mogrify.1.gz
+mogrify-im6
+mogrify-im6.1.gz
+monasca
+montage
+montage.1.gz
+montage-im6
+montage-im6.1.gz
+MOVE.7.gz
+movemail
+movemail.1.gz
+mozilla
+mozilla-javaplugin.so
+mpi
+mpic++
+mpic++.1.gz
+mpicc
+mpiCC
+mpicc.1.gz
+mpiCC.1.gz
+MPI_Comm_set_name.3.gz
+mpi-c.pc
+mpicxx
+mpicxx.1.gz
+mpi-cxx.pc
+mpiexec
+mpiexec.1.gz
+mpif77
+mpif77.1.gz
+mpif90
+mpif90.1.gz
+mpifort
+mpifort.1.gz
+mpi-fort.pc
+mpi.pc
+mpirun
+mpirun.1.gz
+msiexec
+msiexec.1.gz
+mt
+mt.1.gz
+murano
+mvn
+mvn.1.gz
+mvnDebug
+mvnDebug.1.gz
+mx-plot
+my.cnf
+native2ascii
+nawk
+nawk.1.gz
+nc
+nc.1.gz
+ncftp
+ncftp.1.gz
+nes
+nes.1.gz
+netcat
+netcat.1.gz
+nethack
+netrc.5.gz
+neutron
+newsticker.info.gz
+NOTIFY.7.gz
+nova
+nvidia
+nvidia--libcuda.so.1-i386-linux-gnu
+nvidia--libcuda.so.1-x86_64-linux-gnu
+nvidia--libcuda.so-i386-linux-gnu
+nvidia--libcuda.so-x86_64-linux-gnu
+nvidia--libEGL_nvidia.so.0-i386-linux-gnu
+nvidia--libEGL_nvidia.so.0-x86_64-linux-gnu
+nvidia--libEGL.so.1-i386-linux-gnu
+nvidia--libEGL.so.1-x86_64-linux-gnu
+nvidia--libGLESv1_CM_nvidia.so.1-i386-linux-gnu
+nvidia--libGLESv1_CM_nvidia.so.1-x86_64-linux-gnu
+nvidia--libGLESv1_CM.so.1-i386-linux-gnu
+nvidia--libGLESv1_CM.so.1-x86_64-linux-gnu
+nvidia--libGLESv2_nvidia.so.2-i386-linux-gnu
+nvidia--libGLESv2_nvidia.so.2-x86_64-linux-gnu
+nvidia--libGLESv2.so.2-i386-linux-gnu
+nvidia--libGLESv2.so.2-x86_64-linux-gnu
+nvidia--libGL.so.1-i386-linux-gnu
+nvidia--libGL.so.1-x86_64-linux-gnu
+nvidia--libGLX_nvidia.so.0-i386-linux-gnu
+nvidia--libGLX_nvidia.so.0-x86_64-linux-gnu
+nvidia--libglx.so
+nvidia--libnvcuvid.so.1-i386-linux-gnu
+nvidia--libnvcuvid.so.1-x86_64-linux-gnu
+nvidia--libnvcuvid.so-i386-linux-gnu
+nvidia--libnvcuvid.so-x86_64-linux-gnu
+nvidia--libnvidia-cfg.so.1-i386-linux-gnu
+nvidia--libnvidia-cfg.so.1-x86_64-linux-gnu
+nvidia--libnvidia-encode.so.1-i386-linux-gnu
+nvidia--libnvidia-encode.so.1-x86_64-linux-gnu
+nvidia--libnvidia-fbc.so.1-i386-linux-gnu
+nvidia--libnvidia-fbc.so.1-x86_64-linux-gnu
+nvidia--libnvidia-ifr.so.1-i386-linux-gnu
+nvidia--libnvidia-ifr.so.1-x86_64-linux-gnu
+nvidia--libnvidia-ml.so.1-i386-linux-gnu
+nvidia--libnvidia-ml.so.1-x86_64-linux-gnu
+nvidia--libnvidia-opencl.so.1-i386-linux-gnu
+nvidia--libnvidia-opencl.so.1-x86_64-linux-gnu
+nvidia--libnvidia-ptxjitcompiler.so.1-i386-linux-gnu
+nvidia--libnvidia-ptxjitcompiler.so.1-x86_64-linux-gnu
+nvidia--libvdpau_nvidia.so.1-i386-linux-gnu
+nvidia--libvdpau_nvidia.so.1-x86_64-linux-gnu
+nvidia--nv-control-dpy
+nvidia--nvidia-application-profiles-key-documentation
+nvidia--nvidia-blacklists-nouveau.conf
+nvidia--nvidia-bug-report.sh
+nvidia--nvidia-debugdump
+nvidia--nvidia-drm-outputclass.conf
+nvidia--nvidia_drv.so
+nvidia--nvidia-load.conf
+nvidia--nvidia-modprobe.conf
+nvidia--nvidia-settings
+nvidia--nvidia-settings.1.gz
+nvidia--nvidia-settings.desktop
+nvidia--nvidia-smi
+nvidia--nvidia-smi.1.gz
+nxml-mode.info.gz
+octave-mode.info.gz
+odt2txt
+odt2txt.1.gz
+openjade
+openjade.1.gz
+openstack
+openstack-auto-commands
+openstack-doc-test
+openstack-doc-tools-prettify.py
+openstack-doc-tools-remove_unnecessary_spaces.py
+openstack-doc-tools-retf.py
+openstack-generate-docbook
+openstack-generate-pot
+openstack-indexpage
+openstack-jsoncheck
+orbd
+org.info.gz
+oslo-config-generator
+oslo_debug_helper
+oslo-messaging-zmq-broker
+oslo-messaging-zmq-proxy
+oslopolicy-checker
+oslopolicy-list-redundant
+oslopolicy-policy-generator
+oslopolicy-sample-generator
+oslo-rootwrap
+oslo-rootwrap-daemon
+oslo_run_cross_tests
+oslo_run_pre_release_tests
+osprofiler
+ostestr
+pack200
+pager
+pager.1.gz
+parallax-askpass
+parse_xsd2
+pasteurize
+pbr
+pcl-cvs.info.gz
+pd
+pd.1.gz
+pd-net
+pecan
+pftp
+pftp.1.gz
+pg_basebackup.1.gz
+pg_dump.1.gz
+pg_dumpall.1.gz
+pgg.info.gz
+pg_isready.1.gz
+pg_receivexlog.1.gz
+pg_recvlogical.1.gz
+pg_restore.1.gz
+phar
+phar.1.gz
+phar.phar
+phar.phar.1.gz
+php
+php.1.gz
+php-cgi
+php-cgi.1.gz
+php-cgi-bin
+php-config
+php-config.1.gz
+phpize
+phpize.1.gz
+pico
+pico.1.gz
+pinentry
+pinentry.1.gz
+pinentry-x11
+pinentry-x11.1.gz
+policyeditor
+policyeditor.1.gz
+policytool
+PREPARE.7.gz
+PREPARE_TRANSACTION.7.gz
+privsep-helper
+prolog
+prolog.1.gz
+psql.1.gz
+pulpdoctest
+pulptest
+pvm-rsh
+py-afl-fuzz
+py-afl-fuzz.1.gz
+pybabel
+pyferret
+pykmip-server
+pyscss
+pyscss.1.gz
+q
+qr
+qr.1.gz
+quake-engine
+quake-engine-server
+rasmol
+rcirc.info.gz
+rcp
+rcp.1.gz
+readline-editor
+readline-editor.1.gz
+README
+readmsg
+readmsg.1.gz
+REASSIGN_OWNED.7.gz
+REFRESH_MATERIALIZED_VIEW.7.gz
+reftex.info.gz
+regedit
+regedit.1.gz
+regsvr32
+regsvr32.1.gz
+REINDEX.7.gz
+reindexdb.1.gz
+RELEASE_SAVEPOINT.7.gz
+remember.info.gz
+rename
+rename.1.gz
+reno
+RESET.7.gz
+resource-file-generator
+restructuredtext-lint
+REVOKE.7.gz
+rgview
+rgvim
+rlogin
+rlogin.1.gz
+rmic
+rmid
+rmiregistry
+rmt
+rmt.8.gz
+ROLLBACK.7.gz
+ROLLBACK_PREPARED.7.gz
+ROLLBACK_TO_SAVEPOINT.7.gz
+rsh
+rsh.1.gz
+rst2html
+rst2html4
+rst2html5
+rst2latex
+rst2man
+rst2odt
+rst2odt_prepstyles
+rst2pseudoxml
+rst2s5
+rst2xetex
+rst2xml
+rst-buildhtml
+rst-lint
+rstpep2html
+run-escript
+runhaskell
+runhaskell.1.gz
+rview
+rvim
+rxvt
+rxvt.1.gz
+sar
+sar.1.gz
+sasl.info.gz
+SAVEPOINT.7.gz
+scala
+scala.1.gz
+scalac
+scalac.1.gz
+scaladoc
+scaladoc.1.gz
+scalap
+scalap.1.gz
+schemagen
+sc.info.gz
+sddm-debian-theme
+SECURITY_LABEL.7.gz
+SELECT.7.gz
+SELECT_INTO.7.gz
+semantic.info.gz
+serialver
+servertool
+ses.info.gz
+SET.7.gz
+SET_CONSTRAINTS.7.gz
+SET_ROLE.7.gz
+SET_SESSION_AUTHORIZATION.7.gz
+SET_TRANSACTION.7.gz
+SHOW.7.gz
+sieve.info.gz
+smtpmail.info.gz
+speedbar.info.gz
+spice-xpi-client
+srecode.info.gz
+ssh-askpass
+ssh-askpass.1.gz
+startGroovy
+start-here-16.png
+start-here-22.png
+start-here-24.png
+start-here-256.png
+start-here-32.png
+start-here-48.png
+start-here.svg
+START_TRANSACTION.7.gz
+stream
+stream.1.gz
+stream-im6
+stream-im6.1.gz
+strong-name-tool
+subunit2html
+subunit-trace
+swift
+swift.1.gz
+tabbed
+TABLE.7.gz
+targetctl
+tcptraceroute
+tcptraceroute.1.gz
+telnet
+telnet.1.gz
+testr
+tf
+tf.1.gz
+tnameserv
+todo-mode.info.gz
+tor-prompt
+tor-prompt.8.gz
+traceproto
+traceproto.1.gz
+traceroute
+traceroute.1.gz
+traceroute6
+traceroute6.1.gz
+traceroute.sbin
+tramp.info.gz
+TRUNCATE.7.gz
+uim-toolbar
+unison
+unison.1.gz
+unison-gtk
+unison-gtk.1.gz
+unit2
+UNLISTEN.7.gz
+unlzma
+unlzma.1.gz
+unpack200
+unrar
+unrar.1.gz
+UPDATE.7.gz
+updatedb
+updatedb.8.gz
+url.info.gz
+uwsgi
+uwsgi.1.gz
+uwsgi-plugin-python3
+uwsgi_python3
+uwsgi_python3.1.gz
+VACUUM.7.gz
+vacuumdb.1.gz
+VALUES.7.gz
+vi
+vi.1.gz
+view
+view.1.gz
+view.fr.1.gz
+view.it.1.gz
+view.ja.1.gz
+view.pl.1.gz
+view.ru.1.gz
+vi.fr.1.gz
+vi.it.1.gz
+vi.ja.1.gz
+vim
+vimdiff
+viper.info.gz
+vip.info.gz
+vi.pl.1.gz
+vi.ru.1.gz
+vncviewer
+vncviewer.1.gz
+w
+w.1.gz
+waitress-serve
+wesnoth
+wesnoth.6.gz
+wesnoth.cs.6.gz
+wesnoth.de.6.gz
+wesnoth.en_GB.6.gz
+wesnoth.es.6.gz
+wesnoth.et.6.gz
+wesnoth.fi.6.gz
+wesnoth.fr.6.gz
+wesnoth.gl.6.gz
+wesnoth.hu.6.gz
+wesnoth.id.6.gz
+wesnoth.it.6.gz
+wesnoth.lt.6.gz
+wesnoth-nolog
+wesnoth.pl.6.gz
+wesnoth.pt.6.gz
+wesnoth.ru.6.gz
+wesnoth.sk.6.gz
+wesnoth.sr.6.gz
+wesnoth.sr@ijekavian.6.gz
+wesnoth.sr@ijekavianlatin.6.gz
+wesnoth.sr@latin.6.gz
+wesnoth.uk.6.gz
+wesnoth.vi.6.gz
+wesnoth.zh_CN.6.gz
+widget.info.gz
+wine
+wine.1.gz
+wine64
+wine64.1.gz
+wineboot
+wineboot.1.gz
+winecfg
+winecfg.1.gz
+wineconsole
+wineconsole.1.gz
+winedbg
+winedbg.1.gz
+wine.de.1.gz
+winefile
+winefile.1.gz
+wine.fr.1.gz
+winepath
+winepath.1.gz
+wine.pl.1.gz
+wineserver
+wineserver.1.gz
+wineserver.de.1.gz
+wineserver.fr.1.gz
+wine.svg
+wisent.info.gz
+WITH.7.gz
+woman.info.gz
+write
+write.1.gz
+wsdump
+wsgen
+wsimport
+www-browser
+www-browser.1.gz
+wx.pth
+x86_64-linux-gnu_egl_conf
+x86_64-linux-gnu_gl_conf
+x86_64-w64-mingw32-c++
+x86_64-w64-mingw32-cpp
+x86_64-w64-mingw32-g++
+x86_64-w64-mingw32-gcc
+x86_64-w64-mingw32-gcc-ar
+x86_64-w64-mingw32-gcc-nm
+x86_64-w64-mingw32-gcc-ranlib
+x86_64-w64-mingw32-gcov
+x86_64-w64-mingw32-gfortran
+x86_64-w64-mingw32-gnat
+x86_64-w64-mingw32-gnatbind
+x86_64-w64-mingw32-gnatchop
+x86_64-w64-mingw32-gnatclean
+x86_64-w64-mingw32-gnatfind
+x86_64-w64-mingw32-gnatkr
+x86_64-w64-mingw32-gnatlink
+x86_64-w64-mingw32-gnatls
+x86_64-w64-mingw32-gnatmake
+x86_64-w64-mingw32-gnatname
+x86_64-w64-mingw32-gnatprep
+x86_64-w64-mingw32-gnatxref
+x-cursor-theme
+xdvi.bin
+xinput-ja_JP
+xinput-ko_KR
+xinput-zh_CN
+xinput-zh_HK
+xinput-zh_SG
+xinput-zh_TW
+xjc
+xpilot
+xpilot-ng
+x-session-manager
+x-session-manager.1.gz
+x-terminal-emulator
+x-terminal-emulator.1.gz
+xvncviewer
+xvncviewer.1.gz
+x-window-manager
+x-window-manager.1.gz
+x-www-browser
+x-www-browser.1.gz
+yacc
+yaccman
+yaql
+zcode-interpreter
+zcode-interpreter-man-gz
+
+/etc/amphetamine:
+amph.conf  user.conf
+
+/etc/angband:
+edit  pref
+
+/etc/apache2:
+apache2.conf	conf-enabled  magic	      ports.conf
+conf-available	envvars       mods-available  sites-available
+conf.d		include       mods-enabled    sites-enabled
+
+/etc/apm:
+event.d
+
+/etc/apparmor:
+init
+
+/etc/apparmor.d:
+abstractions	usr.bin.freshclam		usr.sbin.clamd
+disable		usr.bin.icedove			usr.sbin.cups-browsed
+force-complain	usr.bin.thunderbird		usr.sbin.cupsd
+libvirt		usr.lib.ioquake3.ioq3ded	usr.sbin.libvirtd
+local		usr.lib.ioquake3.ioquake3	usr.sbin.mysqld-akonadi
+tunables	usr.lib.libvirt.virt-aa-helper	usr.sbin.ntpd
+usr.bin.evince	usr.lib.telepathy
+
+/etc/apt:
+apt.conf.d	listchanges.conf  sources.list	  trusted.gpg
+apt-file.conf	preferences.d	  sources.list.d  trusted.gpg~
+key-com-import	secring.gpg	  trustdb.gpg	  trusted.gpg.d
+
+/etc/aqsis:
+aqsisrc
+
+/etc/armagetronad:
+aiplayers.cfg  master.srv		    settings_dedicated.cfg
+default.cfg    settings_authentication.cfg  settings_visual.cfg
+examples       settings.cfg		    subcultures.srv
+
+/etc/armagetronad-dedicated:
+aiplayers.cfg  master.srv		    settings_dedicated.cfg
+default.cfg    settings_authentication.cfg  settings_visual.cfg
+examples       settings.cfg		    subcultures.srv
+
+/etc/asciidoc:
+asciidoc.conf	html5.conf    lang-fr.conf     latex.conf
+data		images	      lang-hu.conf     slidy.conf
+dblatex		javascripts   lang-it.conf     stylesheets
+docbook45.conf	lang-cs.conf  lang-nl.conf     testasciidoc.conf
+docbook-xsl	lang-de.conf  lang-pt-BR.conf  text.conf
+filters		lang-el.conf  lang-ro.conf     themes
+help.conf	lang-en.conf  lang-ru.conf     xhtml11.conf
+html4.conf	lang-es.conf  lang-uk.conf     xhtml11-quirks.conf
+
+/etc/autoconf2.13:
+acconfig.h
+
+/etc/avahi:
+avahi-daemon.conf  hosts  services
+
+/etc/bash_completion.d:
+apt-show-versions   insserv		      rdiff-backup
+deborphan	    maven		      rosbash
+dkms		    ocamlfind		      scilab
+dlocate-completion  openvpn		      svn-buildpackage
+doit3		    ovs-appctl-bashcomp.bash  tuxpaint-completion.bash
+git-prompt	    ovs-vsctl-bashcomp.bash   unp
+gmic		    pdextended		      wstool-completion.bash
+griffith	    quilt
+grub		    rasmol
+
+/etc/berusky:
+berusky.ini
+
+/etc/between:
+autoStrangerMode.ini  restartTimeoutSeconds.ini  serverFinderURL.ini
+fullscreen.ini	      screenHeight.ini
+kioskMode.ini	      screenWidth.ini
+
+/etc/bind:
+db.0.168.192.in-addr.arpa.  db.intern		 named.conf.ldap2zone
+db.10.in-addr.arpa.	    db.subnet00.intern.
+db.1.168.192.in-addr.arpa.  db.subnet01.intern.
+
+/etc/binfmt.d:
+
+/etc/blends:
+blends.conf  junior
+
+/etc/bluetooth:
+input.conf  main.conf  network.conf  proximity.conf
+
+/etc/bonobo-activation:
+bonobo-activation-config.xml
+
+/etc/ca-certificates:
+update.d
+
+/etc/calendar:
+default
+
+/etc/canna:
+default.canna
+
+/etc/catkin:
+profile.d
+
+/etc/cfengine:
+cfservd.conf  debian-edu  inputs  update.conf
+
+/etc/cfengine3:
+cf-agent.cf	 cron.tools		gfx.cf	     service
+cf.optlocal	 domain-apps.cf		menus.cf     stdlib.cf
+cf-report.cf	 domain-graphics.cf	pack.cf      test.cf
+cf-serverd.cf	 domain-menus.cf	pkg	     update.cf
+cf.timestamp	 domain-packages.cf	promises.cf
+classes.cf	 domain-reconfigure.cf	reconf.cf
+conf-and-bin.cf  failsafe.cf		scripts
+ls: impossible d'ouvrir le répertoire '/etc/chatscripts': Permission non accordée
+
+/etc/check_multi:
+check_apt.cmd
+
+/etc/chromium:
+native-messaging-hosts	policies
+
+/etc/chromium.d:
+adobe-flash  apikeys  default-flags  extensions  googleapikeys	README
+
+/etc/cifs-utils:
+idmap-plugin
+
+/etc/clamav:
+clamd.conf  freshclam.conf  onerrorexecute.d  onupdateexecute.d  virusevent.d
+
+/etc/clutter-imcontext:
+clutter.immodules
+
+/etc/colorgcc:
+colorgccrc
+
+/etc/common-lisp:
+asdf-output-translations.conf.d  source-registry.conf.d
+
+/etc/console:
+
+/etc/ConsoleKit:
+seats.d
+
+/etc/console-setup:
+cached.kmap.gz			   compose.ISO-8859-2.inc
+cached_Lat15-Fixed16.psf.gz	   compose.ISO-8859-2.inc.dpkg-dist
+cached_setup_font.sh		   compose.ISO-8859-3.inc
+cached_setup_keyboard.sh	   compose.ISO-8859-3.inc.dpkg-dist
+cached_setup_terminal.sh	   compose.ISO-8859-4.inc
+cached_UTF-8_del.kmap.gz	   compose.ISO-8859-4.inc.dpkg-dist
+compose.ARMSCII-8.inc		   compose.ISO-8859-5.inc
+compose.CP1251.inc		   compose.ISO-8859-6.inc
+compose.CP1255.inc		   compose.ISO-8859-7.inc
+compose.CP1256.inc		   compose.ISO-8859-7.inc.dpkg-dist
+compose.GEORGIAN-ACADEMY.inc	   compose.ISO-8859-8.inc
+compose.GEORGIAN-PS.inc		   compose.ISO-8859-9.inc
+compose.IBM1133.inc		   compose.ISO-8859-9.inc.dpkg-dist
+compose.ISIRI-3342.inc		   compose.KOI8-R.inc
+compose.ISO-8859-10.inc		   compose.KOI8-U.inc
+compose.ISO-8859-11.inc		   compose.TIS-620.inc
+compose.ISO-8859-13.inc		   compose.VISCII.inc
+compose.ISO-8859-13.inc.dpkg-dist  compose.VISCII.inc.dpkg-dist
+compose.ISO-8859-14.inc		   Lat15-TerminusBold16.psf
+compose.ISO-8859-14.inc.dpkg-dist  Lat15-VGA8.psf
+compose.ISO-8859-15.inc		   remap.inc
+compose.ISO-8859-15.inc.dpkg-dist  remap.inc.dpkg-dist
+compose.ISO-8859-16.inc		   Uni2-Fixed16.psf
+compose.ISO-8859-1.inc		   vtrgb
+compose.ISO-8859-1.inc.dpkg-dist   vtrgb.vga
+
+/etc/console-tools:
+config	remap
+
+/etc/cracklib:
+cracklib.conf
+
+/etc/cremi:
+skel
+
+/etc/cremi-exam:
+files  scripts	skel
+
+/etc/cron.d:
+anacron			forceudpate-vbox      nss-ldap-update
+certbot			isdnutils-base	      php
+coupure-electricite	mdadm		      php5
+cremi_autooff_msg	munin-node	      php5.dpkg-dist
+cremi-cfrun		munin-node.dpkg-dist  popularity-contest
+cremi_msg_intervention	nohup.out	      shutdownOnIdle
+cremi-shutdown		nsca-cremi	      sysstat
+debian-edu-config	nsca-cremi2
+
+/etc/cron.daily:
+0anacron	   debian-edu-config	  google-chrome  otags
+acct		   debsums		  htdig		 passwd
+apache2		   debtags		  locate	 prelink
+apt-compat	   desktop-profiles	  logrotate	 quota
+aptitude	   dlocate		  man-db	 sn
+apt-show-versions  dpkg			  mdadm		 spamassassin
+bsdmainutils	   fusioninventory-agent  mlocate	 sysstat
+cracklib-runtime   geogebra		  ntp
+
+/etc/cron.hourly:
+debian-edu-config
+
+/etc/cron.monthly:
+0anacron  acct	cron-netoyage  debsums
+
+/etc/cron.weekly:
+0anacron  apt-xapian-index  debsums  efax  fusioninventory-agent  man-db
+
+/etc/crossfire:
+ban_file  exp_table  metaserver2  news	 settings
+dm_file   forbid     motd	  rules  stat_bonus
+
+/etc/cryptsetup-initramfs:
+conf-hook
+
+/etc/csh:
+login.d
+
+/etc/ctn:
+runtime
+
+/etc/cups:
+acroread.conf		     cupsd-debian-edu.conf	 ppd
+client.conf		     cups-files.conf		 raw.convs
+cups-browsed.conf	     cups-files-debian-edu.conf  raw.types
+cups-browsed.conf.dpkg-dist  mime.convs			 snmp.conf
+cupsd.conf		     mime.types			 snmp.conf.dpkg-dist
+cupsd.conf.default	     pdftops.conf		 ssl
+
+/etc/cupshelpers:
+preferreddrivers.xml
+
+/etc/dbus-1:
+session.conf  session.d  system.conf  system.d
+
+/etc/dcmtk:
+DICOMscope.cfg
+
+/etc/dconf:
+db  profile
+
+/etc/debian-builder:
+debian-builder.conf
+
+/etc/debian-edu:
+nightkill.conf	www  xdebian-edu-firstboot
+
+/etc/default:
+acct			grub		      openvpn
+acpid			grub.ucf-dist	      openvswitch-switch
+amd64-microcode		halt		      p910nd
+anacron			hddtemp		      pd-extended
+apache-htcacheclean	htdig		      pioneers-metaserver
+armagetronad-dedicated	hwclock		      plptools
+aufs			im-config	      poweroff-prerm-module
+autofs			intel-microcode       prelink
+autofs.ucf-dist		ipmievd		      quota
+avahi-daemon		irqbalance	      rcS
+avahi-daemon.dpkg-dist	isc-dhcp-server       rcS.dpkg-dist
+bluetooth		kdm.d		      rsync
+bridge-utils		keyboard	      rsyslog
+bsdmainutils		ldap2zone	      samba
+bzflag			libnss-db	      saned
+cacerts			libvirtd	      schroot
+cfengine2		libvirt-guests	      sfcb
+cfengine3-cremi		lnpd		      spamassassin
+console-setup		locale		      speech-dispatcher
+crda			lsh-server	      srptools
+cremi_kver		mdadm		      ssh
+cremi-local-cx		minidlna	      startupchooser
+cremi-poweroff		minissdpd	      stunnel4
+cron			munin-node	      sysstat
+cryptdisks		nagios-nrpe-server    tetrinetx
+dbus			networking	      timidity
+debsums			nfs-common	      tmpfs
+desktop-profiles	nfs-common.dpkg-dist  transmission-daemon
+devpts			nfs-common.ucf-dist   transmission-daemon.dpkg-dist
+distcc			nss		      uml-utilities
+dlocate			ntp		      uml-utilities.dpkg-dist
+dsm_sa_ipmi		ntpdate		      useradd
+ebtables		ntpdate.dhcp	      uwsgi
+enable-nat		ntpdate.dpkg-dist     virtlogd
+fusioninventory-agent	nuitdelinfo	      virtualbox
+gdomap			numlockx	      wesnoth-1.12-server
+geogebra		openarena-server      xpilot-ng-server
+google-chrome		open-iscsi
+gpsd			opensm
+
+/etc/defoma:
+hints
+
+/etc/dejagnu:
+site.exp
+
+/etc/desktop-profiles:
+debian-edu-config.listing  desktop-profiles.listing
+
+/etc/dhcp:
+debug			  dhclient-enter-hooks.d  dhcpd.conf
+dhclient.conf		  dhclient-exit-hooks.d   dhcpd-debian-edu.conf
+dhclient-debian-edu.conf  dhcpd6.conf
+
+/etc/dictionaries-common:
+ispell-default	words
+
+/etc/discover.conf.d:
+00discover
+
+/etc/distcc:
+hosts
+
+/etc/dkms:
+framework.conf	template-dkms-mkbmdeb  template-dkms-mkdeb  template-dkms-mkdsc
+
+/etc/doc-base:
+documents
+ls: impossible d'ouvrir le répertoire '/etc/docker': Permission non accordée
+
+/etc/dovecot:
+local.conf
+
+/etc/dpkg:
+dpkg.cfg    dselect.cfg    origins	   shlibs.override
+dpkg.cfg.d  dselect.cfg.d  shlibs.default
+
+/etc/drbl:
+auto_login_host_id_passwd.example  client-ip-hostname.example  drbl-ocs.conf
+client-append-fstab.example	   dcsrc.example
+client-extra-service.example	   drbl.conf
+
+/etc/emacs:
+site-start.d  site-start.el
+
+/etc/emacs24:
+site-start.d
+
+/etc/emacs25:
+site-start.d
+
+/etc/esound:
+esd.conf
+
+/etc/exim4:
+exim-ldap-client-v4.conf  exim-ldap-server-v4.conf
+
+/etc/firebird:
+3.0
+
+/etc/firefox-esr:
+debian-edu-homepage-ldap.js  debian-edu-networked.js  firefox-esr.js.dpkg-dist
+debian-edu.js		     firefox-esr.js
+
+/etc/fish:
+completions  conf.d  config.fish
+
+/etc/fish.d:
+desktop-profiles.fish
+
+/etc/fonts:
+conf.avail  conf.d  fonts.conf
+
+/etc/foomatic:
+
+/etc/fop.conf.d:
+
+/etc/freeciv:
+database.lua
+
+/etc/freeipmi:
+freeipmi.conf		     freeipmi_interpret_sensor.conf
+freeipmi_interpret_sel.conf  libipmiconsole.conf
+
+/etc/freemind:
+patterns.xml
+
+/etc/freetds:
+freetds.conf
+
+/etc/fusioninventory:
+agent.cfg  agent.cfg.ucf-dist
+
+/etc/gamin:
+gaminrc
+
+/etc/gconf:
+2  gconf.xml.defaults  gconf.xml.mandatory
+
+/etc/gdb:
+gdbinit
+
+/etc/gdm:
+cremimessage	   failsafeXinit    Init	 PreSession
+custom.conf	   failsafeXServer  PostLogin	 Xsession
+failsafeBlacklist  groupupdate	    PostSession
+
+/etc/gdm3:
+daemon.conf		Init	   PostSession	Xsession
+greeter.dconf-defaults	PostLogin  PreSession
+
+/etc/geoclue:
+geoclue.conf
+
+/etc/geogebra:
+geogebra.conf
+
+/etc/ghostscript:
+cidfmap.d  fontmap.d
+
+/etc/gimp:
+2.0
+
+/etc/git-buildpackage:
+gbp.conf
+
+/etc/gnome:
+epiphany  menus.blacklist
+
+/etc/gnome-chess:
+engines.conf
+
+/etc/gnome-system-tools:
+user-profiles.conf
+
+/etc/gnome-vfs-2.0:
+modules
+
+/etc/gns3:
+gns3.ini
+
+/etc/gnucash:
+config	environment
+
+/etc/gnuradio:
+conf.d
+
+/etc/GNUstep:
+Defaults  gdomap_probes  GNUstep.conf
+
+/etc/gosa:
+gosa.conf
+
+/etc/gravitation:
+fullscreen.ini	screenHeight.ini  screenWidth.ini
+
+/etc/groff:
+man.local  mdoc.local
+
+/etc/groovy:
+groovy-starter.conf
+
+/etc/grub.d:
+00_header	 10_linux.dpkg-dist	  30_os-prober		  41_custom
+01_header_cremi  20_linux_xen		  30_os-prober.dpkg-dist  README
+05_debian_theme  20_memtest86+		  30_uefi-firmware
+10_linux	 20_memtest86+.dpkg-dist  40_custom
+
+/etc/gss:
+mech.d
+
+/etc/gtk-2.0:
+im-multipress.conf
+
+/etc/gtk-3.0:
+im-multipress.conf
+
+/etc/gtkmathview:
+dictionary-debian.xml  gtkmathview.conf.xml
+
+/etc/highlight:
+filetypes.conf
+
+/etc/hotplug:
+usb
+
+/etc/hp:
+hplip.conf
+
+/etc/htdig:
+bad_words    english.aff  htdig.conf		 mime.types    synonyms
+cookies.txt  footer.html  HtFileType-magic.mime  nomatch.html  syntax.html
+english.0    header.html  long.html		 short.html    wrapper.html
+
+/etc/i3:
+config	config.keycodes
+
+/etc/icaclient:
+config	nls
+
+/etc/icalicense:
+clientlicense
+
+/etc/iceape:
+pref
+
+/etc/icedtea-web:
+javaws.policy
+
+/etc/iceweasel:
+pref
+
+/etc/ifplugd:
+action.d
+
+/etc/ImageMagick-6:
+coder.xml      magic.xml	       thresholds.xml	     type-windows.xml
+colors.xml     mime.xml		       type-apple.xml	     type.xml
+delegates.xml  policy.xml	       type-dejavu.xml
+log.xml        quantization-table.xml  type-ghostscript.xml
+
+/etc/init:
+anacron.conf		 network-interface-container.conf
+binfmt-support.conf	 network-interface-security.conf
+binfmt-support.override  portmap-wait.conf
+cgmanager.conf		 resolvconf.conf
+cgproxy.conf		 rpcbind-boot.conf
+cryptdisks.conf		 rpcbind.conf
+cryptdisks-udev.conf	 sddm.conf
+irqbalance.conf		 ssh.conf
+mongodb.conf		 startpar-bridge.conf
+mongodb.override	 transmission-daemon.conf
+munin-node.conf		 transmission-daemon.override
+munin-node.override	 udev.conf
+mysql.override		 udevmonitor.conf
+networking.conf		 udevtrigger.conf
+network-interface.conf	 usb-modeswitch-upstart.conf
+
+/etc/init.d:
+acct			 ipmievd		postgresql
+acpid			 irqbalance		pppd-dns
+alsa-utils		 isc-dhcp-server	procps
+anacron			 iscsid			quota
+apache2			 isdnutils-base		quotarpc
+apache-htcacheclean	 keyboard-setup.sh	rc
+armagetronad-dedicated	 killprocs		rc.local
+atd			 kmod			rcS
+autofs			 LCDd			README
+autofs.dpkg-dist	 libvirtd		reboot
+avahi-daemon		 libvirt-guests		resolvconf
+binfmt-support		 lightdm		rmnologin
+bluetooth		 lircd			rpcbind
+bootlogs		 lircmd			rsync
+bootmisc.sh		 lm-sensors		rsyslog
+bzflag			 lnpd			rtslib-fb-targetctl
+cfengine2		 loadcpufreq		saned
+cfengine3-cremi		 lvm2			schroot
+cfengine_cremi		 lvm2-lvmetad		screen-cleanup
+cgmanager		 lvm2-lvmpolld		sddm
+cgproxy			 lxdm			selinux-autorelabel
+checkfs.sh		 mdadm			sendhalt-nagios
+checkpoweroff		 mdadm-waitidle		sendsigs
+checkroot-bootclean.sh	 minidlna		setserial
+checkroot.sh		 minissdpd		sfcb
+clamav-daemon		 mongodb		single
+clamav-freshclam	 monopd			skeleton
+clean-at		 motd			slashem-common
+console-setup.sh	 mountall-bootclean.sh	spamassassin
+cpufrequtils		 mountall.sh		speech-dispatcher
+cremi_wait_torrent_done  mountdevsubfs.sh	srptools
+cron			 mountkernfs.sh		ssh
+crossfire-server	 mountnfs-bootclean.sh	stunnel4
+cryptdisks		 mountnfs.sh		sudo
+cryptdisks-early	 mountoverflowtmp	sysfsutils
+cups			 munin-node		sysstat
+cups-browsed		 nagios-cremi.sh	tetrinetx
+dbus			 nagios-nrpe-server	timidity
+dcismeng		 nethack-common		timidity.dpkg-dist
+distcc			 networking		transmission-daemon
+dsm_sa_ipmi		 network-manager	udev
+dsm_sa_ipmi.dpkg-dist	 nfs-common		uml-utilities
+ebtables		 nsca			umountfs
+enable-nat		 nscd			umountnfs.sh
+etc-setserial		 ntp			umountroot
+fetch-ldap-cert		 nvidia-kernel		unattended-upgrades
+firefox-ldapconf	 ocsinv			urandom
+functions.sh		 openarena-server	uuidd
+fusioninventory-agent	 openbsd-inetd		uwsgi
+gdomap			 openhpid		virtlogd
+gkrellmd		 openipmi		virtualbox
+gpm			 open-iscsi		virtualbox-guest-utils
+gpsd			 opensm			wesnoth-1.12-server
+halt			 openvpn		whiteboard
+hddtemp			 openvswitch-switch	x11-common
+hostname.sh		 p910nd			x2goserver
+hwclock.sh		 pcscd			xdebian-edu-firstboot
+instsvcdrv		 pd-extended		xpilot-ng-server
+instsvcdrv.dpkg-dist	 pioneers-metaserver	zz_cremi_nologin
+
+/etc/initramfs-tools:
+conf.d	hooks  initramfs.conf  modules	scripts  update-initramfs.conf
+
+/etc/insserv:
+overrides
+
+/etc/insserv.conf.d:
+gdm3  kdm  lxdm  rpcbind
+
+/etc/iproute2:
+bpf_pinning  group	rt_dsfield  rt_realms  rt_tables
+ematch_map   nl_protos	rt_protos   rt_scopes  rt_tables.d
+
+/etc/iscsi:
+initiatorname.iscsi  iscsid.conf
+
+/etc/isdn:
+init.d.functions
+
+/etc/java:
+cacerts-gcj  security
+
+/etc/java-8-openjdk:
+accessibility.properties  jvm-amd64.cfg		psfont.properties.ja
+calendars.properties	  logging.properties	security
+content-types.properties  management		sound.properties
+flavormap.properties	  net.properties	swing.properties
+images			  psfontj2d.properties
+
+/etc/jupyter:
+nbconfig
+
+/etc/kbd:
+config
+
+/etc/kde3:
+magic
+
+/etc/kde4:
+kdeprintrc  kdeprintrc.dpkg-bak  kdm
+
+/etc/kernel:
+header_postinst.d  postinst.d  preinst.d  signed_postinst.d
+install.d	   postrm.d    prerm.d
+
+/etc/kraptor:
+kraptor.cfg
+
+/etc/lam:
+bhost.def  conf.lamd  lam-helpfile
+
+/etc/ldap:
+autofs.ldif	  krb5.ldif	       rootDSE-debian-edu.ldif	      ssl
+firstuser.ldif	  ldap.conf	       root.ldif		      sudo.ldif
+gosa.ldif	  ldap.conf.dpkg-dist  samba.ldif
+gosa-server.ldif  ltsp.ldif	       schema
+ipnetworks.ldif   netgroup.ldif        slapd-squeeze_debian-edu.conf
+
+/etc/ldaptor:
+global.cfg  ldaptor.schema
+
+/etc/ld.so.conf.d:
+fakeroot-x86_64-linux-gnu.conf	x86_64-linux-gnu_EGL.conf
+i386-linux-gnu.conf		x86_64-linux-gnu_GL.conf
+libc6-xen.conf			zz_i386-biarch-compat.conf
+libc.conf			zz_x32-biarch-compat.conf
+srvadmin-hapi-x86_64.conf	zz_zz_intel_opencl.conf
+x86_64-linux-gnu.conf
+
+/etc/letsencrypt:
+cli.ini  renewal-hooks
+
+/etc/libgda-5.0:
+config
+
+/etc/libibverbs.d:
+ipath.driver  mlx4.driver  mthca.driver
+
+/etc/libnl-3:
+classid  pktloc
+
+/etc/libpaper.d:
+texlive-base
+
+/etc/libreoffice:
+psprint.conf  sofficerc  soffice.sh
+
+/etc/libsmbios:
+logging.conf
+
+/etc/libvirt:
+hooks	       libxl-lockd.conf  qemu.conf	    virtlogd.conf
+libvirt.conf   lxc.conf		 qemu-lockd.conf    virt-login-shell.conf
+libvirtd.conf  nwfilter		 qemu-sanlock.conf
+libxl.conf     qemu		 virtlockd.conf
+
+/etc/lightdm:
+keys.conf     lightdm-gtk-greeter.conf	users.conf
+lightdm.conf  lightdm-kde-greeter.conf
+
+/etc/lighttpd:
+conf-available	conf-enabled
+
+/etc/lirc:
+irexec.lircrc	    lircd.conf.d     lircmd.conf.dist
+irexec.lircrc.dist  lircd.conf.dist  lirc_options.conf
+lircd.conf	    lircmd.conf      lirc_options.conf.dist
+
+/etc/logcheck:
+ignore.d.paranoid  ignore.d.server  violations.d
+
+/etc/logrotate.d:
+apache2		       iptraf-ng	    openvswitch-switch
+apt		       kdm		    pm-utils
+aptitude	       libvirtd		    postgresql-common
+certbot		       libvirtd.libxl	    ppp
+clamav-daemon	       libvirtd.lxc	    rsyslog
+clamav-freshclam       libvirtd.qemu	    speech-dispatcher
+consolekit	       libvirtd.uml	    srp_daemon
+crossfire-server       lxdm		    stunnel4
+cups-daemon	       mongodb-server	    tetrinetx
+distcc		       munin-node	    unattended-upgrades
+dpkg		       ocsinventory-client  uwsgi
+fusioninventory-agent  opensm
+
+/etc/ltspfs:
+mounter.d
+
+/etc/lvm:
+lvm.conf
+
+/etc/lxdm:
+default.conf  lxdm.conf  PostLogout  PreReboot	  Xsession
+LoginReady    PostLogin  PreLogin    PreShutdown
+
+/etc/lynx:
+lynx.cfg  lynx.lss
+
+/etc/magcode:
+magcode.conf
+
+/etc/mail:
+spamassassin
+
+/etc/maven:
+fake-poms.conf	m2.conf		settings-debian.xml  toolchains.xml
+logging		m2-debian.conf	settings.xml
+
+/etc/mc:
+edit.indent.rc	   mc.default.keymap  mc.emacs.keymap  mc.keymap  sfs.ini
+filehighlight.ini  mcedit.menu	      mc.ext	       mc.menu
+
+/etc/mdadm:
+mdadm.conf
+
+/etc/mdm:
+Init	     mdm.conf	    modules    PostSession  SuperInit  XKeepsCrashing
+locale.conf  mdm_html.conf  PostLogin  PreSession   SuperPost  Xsession
+
+/etc/menu:
+README
+
+/etc/menu-methods:
+awesome       menu.config  README	    xdg-desktop-entry-spec-apps
+blackbox      menu.h	   translate_menus  xdg-desktop-entry-spec-dirs
+fluxbox       menu-xdg	   twm		    xdg-desktop-entry-spec-sessions
+icewm-common  mwm	   wmaker
+lang.h	      openbox	   wmappearance
+
+/etc/mercurial:
+hgrc  hgrc.d
+
+/etc/metainit:
+
+/etc/minicom:
+
+/etc/mklocaluser.d:
+20-debian-edu-config
+
+/etc/modprobe.d:
+amd64-microcode-blacklist.conf	   nvidia-blacklists-nouveau.conf
+dkms.conf			   nvidia.conf
+intel-microcode-blacklist.conf	   nvidia-kernel-common.conf
+libhackrf0.conf			   oss-compat.conf
+libopenni-sensor-primesense0.conf  pcspkr-blacklist.conf
+libpisock9.conf			   SCL3711-nfc.conf
+mdadm.conf
+
+/etc/modules-load.d:
+cups-filters.conf  modules.conf  nvidia.conf
+
+/etc/mono:
+2.0  4.0  4.5  browscap.ini  certstore	config	mconfig
+
+/etc/mplayer:
+input.conf  menu.conf  mplayer.conf
+
+/etc/mpv:
+encoding-profiles.conf
+
+/etc/munin:
+debian-edu-munin-node.conf  munin-node.conf  plugin-conf.d  plugins
+
+/etc/Muttrc.d:
+charset.rc  colors.rc  compressed-folders.rc  gpg.rc  notmuch.rc  smime.rc
+
+/etc/mysql:
+conf.d	debian.cnf  mariadb.cnf  mariadb.conf.d  my.cnf  my.cnf.fallback
+
+/etc/nagios:
+command.cfg  nrpe.cfg.dpkg-dist  nrpe.d		 nrpe_local.cfg.dpkg-dist
+nrpe.cfg     nrpe_cremi.cfg	 nrpe_local.cfg
+
+/etc/nagios3:
+debian-edu
+
+/etc/nagios-plugins:
+check-libs.conf  config			   obsolete-packages-ignore.d
+check_rbl.ini	 obsolete-packages-ignore
+
+/etc/nbd-server:
+conf.d
+
+/etc/ncbi:
+
+/etc/nethack:
+nethackrc.console  nethackrc.tty  sysconf
+
+/etc/network:
+if-down.d	if-pre-up.d  interfaces		interfaces.d  run
+if-post-down.d	if-up.d      interfaces.backup	jumbo
+
+/etc/NetworkManager:
+dispatcher.d  NetworkManager.conf  system-connections
+
+/etc/news:
+sn
+
+/etc/newt:
+palette.original
+
+/etc/nsca.d:
+cfrun.cfg	      send_nsca.cfg		start.cfg    unsuspend.cfg
+maj.cfg		      services_diskless.cfg	startok.cfg
+poweroff.cfg	      services_particulier.cfg	stop.cfg
+report_self_state.py  services_standard.cfg	suspend.cfg
+
+/etc/nvidia:
+current				nvidia-load.conf
+nvidia-blacklists-nouveau.conf	nvidia-modprobe.conf
+nvidia-drm-outputclass.conf
+
+/etc/nxagent:
+keystrokes.cfg	nxagent.keyboard
+
+/etc/ODBCDataSources:
+
+/etc/openal:
+alsoft.conf
+
+/etc/openalpr:
+openalpr.conf
+
+/etc/openarena-server:
+server.cfg
+
+/etc/opencity:
+config
+
+/etc/OpenCL:
+vendors
+
+/etc/openhpi:
+openhpiclient.conf  openhpi.conf  simulation.data
+
+/etc/openmpi:
+openmpi-default-hostfile  openmpi-mca-params.conf.dpkg-dist
+openmpi-mca-params.conf   openmpi-totalview.tcl
+
+/etc/openni:
+GlobalDefaults.ini  modules.xml  SamplesConfig.xml
+
+/etc/openni2:
+OpenNI.ini
+
+/etc/opensc:
+opensc.conf
+
+/etc/opensm:
+
+/etc/openturns-1.7:
+openturns
+
+/etc/openvpn:
+client	server	update-resolv-conf
+
+/etc/openvswitch:
+conf.db  conf.db.backup7.6.0-1731605290  system-id.conf
+
+/etc/openwsman:
+owsmangencert.sh
+
+/etc/opt:
+dell
+
+/etc/os-brick:
+rootwrap.d
+
+/etc/PackageKit:
+PackageKit.conf  Vendor.conf
+
+/etc/pam.d:
+atd			       i3lock		  runuser
+chfn			       kdm		  runuser-l
+chpasswd		       kdm-exam		  samba
+chsh			       kdm-np		  schroot
+common-account		       lightdm		  sddm
+common-auth		       lightdm-autologin  sddm-autologin
+common-password		       lightdm-greeter	  sddm-greeter
+common-session		       login		  slock
+common-session-noninteractive  lxdm		  sshd
+cron			       newusers		  su
+cups			       other		  sudo
+gdm-autologin		       passwd		  systemd-user
+gdm-launch-environment	       polkit-1		  xscreensaver
+gdm-password		       ppp
+gnome-screensaver	       pwauth
+
+/etc/parallel:
+
+/etc/passage:
+fullscreen.ini	screenHeight.ini  screenWidth.ini
+
+/etc/pbuilder:
+buildd-config.sh
+
+/etc/pcmcia:
+comedi	comedi.conf  comedi.opts
+
+/etc/pd:
+plugins-enabled
+
+/etc/pd-extended:
+default.pdextended
+
+/etc/perl:
+CPAN  Net  sitecustomize.pl  XML
+
+/etc/php:
+7.0  apache2
+
+/etc/php5:
+apache2  cli  conf.d  mods-available
+
+/etc/pm:
+config.d  power.d  sleep.d
+
+/etc/pnp4nagios:
+templates.d
+
+/etc/polkit-1:
+localauthority	localauthority.conf.d  nullbackend.conf.d
+
+/etc/postgresql:
+
+/etc/postgresql-common:
+createcluster.conf   root.crt		 user_clusters
+pg_upgradecluster.d  supported_versions
+
+/etc/ppp:
+chap-secrets  ip-down.d  ip-up.d    ipv6-down.d  ipv6-up.d  options.pptp  peers
+ip-down       ip-up	 ipv6-down  ipv6-up	 options    pap-secrets
+
+/etc/profile.d:
+acroread.sh		      fluent.sh     localsolver.sh     srvadmin-path.sh
+altair.sh		      gcc.sh	    nrn.sh	       users-bin.sh
+bash_completion.sh	      java-sun.sh   opt-local.sh       vte-2.91.sh
+bash_completion.sh.dpkg-dist  lang.sh	    printer.sh	       vte.sh
+debian-junior.sh	      lisp.sh	    sbcl.sh	       z-cache.sh
+flatpak.sh		      local-bin.sh  srvadmin-path.csh
+
+/etc/pshrc.d:
+desktop-profiles_pshrc.pl
+
+/etc/pulse:
+client.conf  daemon.conf  default.pa  system.pa
+
+/etc/purple:
+prefs.xml
+
+/etc/pycadf:
+ceilometer_api_audit_map.conf  neutron_api_audit_map.conf
+cinder_api_audit_map.conf      nova_api_audit_map.conf
+glance_api_audit_map.conf      trove_api_audit_map.conf
+
+/etc/pysycache:
+pysycache.dfg
+
+/etc/python:
+debian_config
+
+/etc/python2.7:
+sitecustomize.py
+
+/etc/python3:
+debian_config
+
+/etc/python3.5:
+sitecustomize.py
+
+/etc/qemu:
+bridge.conf
+
+/etc/qt3:
+kstylerc  lipstikstylerc  polyesterstylerc  qt_plugins_3.3rc  qtrc
+
+/etc/R:
+ldpaths   Renviron	 Renviron.site.dpkg-dist  Rprofile.site
+Makeconf  Renviron.site  repositories
+
+/etc/radcli:
+dictionary	   dictionary.merit	      dictionary.sip
+dictionary.ascend  dictionary.microsoft       radiusclient.conf
+dictionary.compat  dictionary.roaringpenguin  servers
+
+/etc/radiusclient:
+dictionary	   dictionary.compat  dictionary.sip	 servers
+dictionary.ascend  dictionary.merit   radiusclient.conf
+
+/etc/rc0.d:
+K01acct			  K01lvm2-lvmetad	  K01uwsgi
+K01alsa-utils		  K01lvm2-lvmpolld	  K01virtualbox
+K01apache-htcacheclean	  K01lxdm		  K01virtualbox-guest-utils
+K01atd			  K01nagios-cremi.sh	  K01x2goserver
+K01autofs		  K01nagios-nrpe-server   K01zz_cremi_nologin
+K01cfengine3-cremi	  K01nscd		  K02cfengine_cremi
+K01cgmanager		  K01nvidia-kernel	  K02cremi_wait_torrent_done
+K01cgproxy		  K01ocsinv		  K02iscsid
+K01checkpoweroff	  K01openbsd-inetd	  K02lircd
+K01clean-at		  K01open-iscsi		  K02quota
+K01dcismeng		  K01opensm		  K03virtlogd
+K01distcc		  K01openvswitch-switch   K04sendsigs
+K01enable-nat		  K01p910nd		  K05rsyslog
+K01etc-setserial	  K01pcscd		  K06umountnfs.sh
+K01fusioninventory-agent  K01resolvconf		  K07nfs-common
+K01gdomap		  K01rmnologin		  K07rpcbind
+K01gkrellmd		  K01rtslib-fb-targetctl  K09umountfs
+K01gpm			  K01sddm		  K12umountroot
+K01ipmievd		  K01sendhalt-nagios	  K13mdadm-waitidle
+K01irqbalance		  K01setserial		  K14halt
+K01isc-dhcp-server	  K01timidity		  README
+K01lircmd		  K01urandom		  S04instsvcdrv
+K01lnpd			  K01uuidd
+
+/etc/rc1.d:
+K01acct			  K01isc-dhcp-server	  K01uwsgi
+K01alsa-utils		  K01lircmd		  K01virtualbox
+K01apache-htcacheclean	  K01lnpd		  K01virtualbox-guest-utils
+K01atd			  K01lvm2-lvmetad	  K01x2goserver
+K01autofs		  K01lvm2-lvmpolld	  K02cfengine_cremi
+K01cfengine3-cremi	  K01lxdm		  K02iscsid
+K01cgmanager		  K01nagios-nrpe-server   K02lircd
+K01cgproxy		  K01nscd		  K03virtlogd
+K01dcismeng		  K01openbsd-inetd	  K05rsyslog
+K01distcc		  K01open-iscsi		  K07nfs-common
+K01enable-nat		  K01opensm		  K07rpcbind
+K01etc-setserial	  K01openvswitch-switch   README
+K01fusioninventory-agent  K01p910nd		  S01killprocs
+K01gdomap		  K01pcscd		  S02checkpoweroff
+K01gkrellmd		  K01rtslib-fb-targetctl  S04nagios-cremi.sh
+K01gpm			  K01sddm		  S08bootlogs
+K01instsvcdrv		  K01setserial		  S09single
+K01ipmievd		  K01timidity
+K01irqbalance		  K01uuidd
+
+/etc/rc2.d:
+K01apache-htcacheclean	    S04autofs		      S04p910nd
+K01instsvcdrv		    S04cfengine3-cremi	      S04pcscd
+README			    S04cgproxy		      S04rmnologin
+S01console-setup.sh	    S04clean-at		      S04rtslib-fb-targetctl
+S02cfengine_cremi	    S04dbus		      S04sddm
+S02cgmanager		    S04dcismeng		      S04ssh
+S02cremi_wait_torrent_done  S04distcc		      S04sysstat
+S02lvm2-lvmetad		    S04enable-nat	      S04virtlogd
+S02lvm2-lvmpolld	    S04fetch-ldap-cert	      S04x2goserver
+S02nethack-common	    S04fusioninventory-agent  S05cpufrequtils
+S02nvidia-kernel	    S04gdomap		      S05firefox-ldapconf
+S02rsyslog		    S04gpm		      S05gkrellmd
+S02sendhalt-nagios	    S04ipmievd		      S05isc-dhcp-server
+S02timidity		    S04irqbalance	      S05lircmd
+S02uuidd		    S04lircd		      S05rsync
+S02uwsgi		    S04lnpd		      S07cron
+S02virtualbox		    S04loadcpufreq	      S07lxdm
+S02virtualbox-guest-utils   S04nagios-cremi.sh	      S07sysfsutils
+S02zz_cremi_nologin	    S04nagios-nrpe-server     S08bootlogs
+S04acct			    S04nscd		      S08ntp
+S04acpid		    S04openbsd-inetd	      S09xdebian-edu-firstboot
+S04anacron		    S04opensm
+S04atd			    S04openvswitch-switch
+
+/etc/rc3.d:
+K01apache-htcacheclean	    S04autofs		      S04openvswitch-switch
+README			    S04cfengine3-cremi	      S04p910nd
+S01console-setup.sh	    S04cgproxy		      S04pcscd
+S02cfengine_cremi	    S04clean-at		      S04rmnologin
+S02cgmanager		    S04dbus		      S04rtslib-fb-targetctl
+S02checkpoweroff	    S04dcismeng		      S04sddm
+S02cremi_wait_torrent_done  S04distcc		      S04ssh
+S02lvm2-lvmetad		    S04enable-nat	      S04sysstat
+S02lvm2-lvmpolld	    S04fetch-ldap-cert	      S04virtlogd
+S02nethack-common	    S04fusioninventory-agent  S04x2goserver
+S02nvidia-kernel	    S04gdomap		      S05cpufrequtils
+S02rsyslog		    S04gpm		      S05firefox-ldapconf
+S02sendhalt-nagios	    S04instsvcdrv	      S05gkrellmd
+S02timidity		    S04ipmievd		      S05isc-dhcp-server
+S02uuidd		    S04irqbalance	      S05lircmd
+S02uwsgi		    S04lircd		      S05rsync
+S02virtualbox		    S04lnpd		      S07cron
+S02virtualbox-guest-utils   S04loadcpufreq	      S07lxdm
+S02zz_cremi_nologin	    S04nagios-cremi.sh	      S07sysfsutils
+S04acct			    S04nagios-nrpe-server     S08bootlogs
+S04acpid		    S04nscd		      S08ntp
+S04anacron		    S04openbsd-inetd	      S09xdebian-edu-firstboot
+S04atd			    S04opensm
+
+/etc/rc4.d:
+K01apache-htcacheclean	    S04autofs		      S04p910nd
+README			    S04cfengine3-cremi	      S04pcscd
+S01console-setup.sh	    S04cgproxy		      S04rmnologin
+S02cfengine_cremi	    S04clean-at		      S04rtslib-fb-targetctl
+S02cgmanager		    S04dbus		      S04sddm
+S02checkpoweroff	    S04dcismeng		      S04ssh
+S02cremi_wait_torrent_done  S04distcc		      S04sysstat
+S02lvm2-lvmetad		    S04enable-nat	      S04virtlogd
+S02lvm2-lvmpolld	    S04fetch-ldap-cert	      S04x2goserver
+S02nethack-common	    S04fusioninventory-agent  S05cpufrequtils
+S02nvidia-kernel	    S04gdomap		      S05firefox-ldapconf
+S02rsyslog		    S04gpm		      S05gkrellmd
+S02sendhalt-nagios	    S04ipmievd		      S05isc-dhcp-server
+S02timidity		    S04irqbalance	      S05lircmd
+S02uuidd		    S04lircd		      S05rsync
+S02uwsgi		    S04lnpd		      S07cron
+S02virtualbox		    S04loadcpufreq	      S07lxdm
+S02virtualbox-guest-utils   S04nagios-cremi.sh	      S07sysfsutils
+S02zz_cremi_nologin	    S04nagios-nrpe-server     S08bootlogs
+S04acct			    S04nscd		      S08ntp
+S04acpid		    S04openbsd-inetd	      S09xdebian-edu-firstboot
+S04anacron		    S04opensm
+S04atd			    S04openvswitch-switch
+
+/etc/rc5.d:
+K01apache-htcacheclean	    S04autofs		      S04openvswitch-switch
+README			    S04cfengine3-cremi	      S04p910nd
+S01console-setup.sh	    S04cgproxy		      S04pcscd
+S02cfengine_cremi	    S04clean-at		      S04rmnologin
+S02cgmanager		    S04dbus		      S04rtslib-fb-targetctl
+S02checkpoweroff	    S04dcismeng		      S04sddm
+S02cremi_wait_torrent_done  S04distcc		      S04ssh
+S02lvm2-lvmetad		    S04enable-nat	      S04sysstat
+S02lvm2-lvmpolld	    S04fetch-ldap-cert	      S04virtlogd
+S02nethack-common	    S04fusioninventory-agent  S04x2goserver
+S02nvidia-kernel	    S04gdomap		      S05cpufrequtils
+S02rsyslog		    S04gpm		      S05firefox-ldapconf
+S02sendhalt-nagios	    S04instsvcdrv	      S05gkrellmd
+S02timidity		    S04ipmievd		      S05isc-dhcp-server
+S02uuidd		    S04irqbalance	      S05lircmd
+S02uwsgi		    S04lircd		      S05rsync
+S02virtualbox		    S04lnpd		      S07cron
+S02virtualbox-guest-utils   S04loadcpufreq	      S07lxdm
+S02zz_cremi_nologin	    S04nagios-cremi.sh	      S07sysfsutils
+S04acct			    S04nagios-nrpe-server     S08bootlogs
+S04acpid		    S04nscd		      S08ntp
+S04anacron		    S04openbsd-inetd	      S09xdebian-edu-firstboot
+S04atd			    S04opensm
+
+/etc/rc6.d:
+K01acct			  K01lvm2-lvmetad	  K01virtualbox
+K01alsa-utils		  K01lvm2-lvmpolld	  K01virtualbox-guest-utils
+K01apache-htcacheclean	  K01lxdm		  K01x2goserver
+K01atd			  K01nagios-cremi.sh	  K01zz_cremi_nologin
+K01autofs		  K01nagios-nrpe-server   K02cfengine_cremi
+K01cfengine3-cremi	  K01nscd		  K02iscsid
+K01cgmanager		  K01nvidia-kernel	  K02lircd
+K01cgproxy		  K01openbsd-inetd	  K02quota
+K01clean-at		  K01open-iscsi		  K03virtlogd
+K01dcismeng		  K01opensm		  K04sendsigs
+K01distcc		  K01openvswitch-switch   K05rsyslog
+K01enable-nat		  K01p910nd		  K06umountnfs.sh
+K01etc-setserial	  K01pcscd		  K07nfs-common
+K01fusioninventory-agent  K01resolvconf		  K07rpcbind
+K01gdomap		  K01rmnologin		  K08hwclock.sh
+K01gkrellmd		  K01rtslib-fb-targetctl  K09umountfs
+K01gpm			  K01sddm		  K12umountroot
+K01ipmievd		  K01setserial		  K13mdadm-waitidle
+K01irqbalance		  K01timidity		  K14reboot
+K01isc-dhcp-server	  K01urandom		  README
+K01lircmd		  K01uuidd		  S02sendhalt-nagios
+K01lnpd			  K01uwsgi		  S04instsvcdrv
+
+/etc/rcS.d:
+K14ebtables		   S10checkfs.sh	     S18mountnfs.sh
+K14pppd-dns		   S11mountall.sh	     S19mountnfs-bootclean.sh
+README			   S12mountall-bootclean.sh  S20selinux-autorelabel
+S01hostname.sh		   S14etc-setserial	     S21alsa-utils
+S01mountkernfs.sh	   S14procps		     S21bootmisc.sh
+S02udev			   S14resolvconf	     S21lm-sensors
+S03keyboard-setup.sh	   S14urandom		     S21quota
+S04mountdevsubfs.sh	   S15networking	     S21screen-cleanup
+S05hwclock.sh		   S16iscsid		     S21setserial
+S06checkroot.sh		   S16rpcbind		     S21x11-common
+S08checkroot-bootclean.sh  S17nfs-common
+S08kmod			   S17open-iscsi
+
+/etc/reader.conf.d:
+libccidtwin
+
+/etc/request-key.d:
+cifs.idmap.conf  cifs.spnego.conf  id_resolver.conf
+
+/etc/resolvconf:
+interface-order  resolv.conf.d	run  update.d  update-libc.d
+
+/etc/root:
+gdb-backtrace.sh  pdg_table.txt      root.mimes		  system.rootrc
+hostcert.conf	  plugins	     system.rootauthrc	  valgrind-root.supp
+html		  RadioNuclides.txt  system.rootdaemonrc
+
+/etc/ros:
+genmsg	rosdep
+
+/etc/rsyslog.d:
+50-default.conf  60-cremi.conf
+
+/etc/rtslib-fb-target:
+saveconfig.json
+
+/etc/samba:
+dhcp.conf		  smb.conf.ucf-dist
+gdbcommands		  smb-debian-edu-client.conf
+netlogon		  smb-debian-edu.conf
+samba-domain-policy.ldif  smbldap-machineadd-gosa
+smbaddclient.sh		  smb-winbind-debian-edu.conf
+smb.conf		  tls
+
+/etc/sane.d:
+abaton.conf	     dmc.conf	     lexmark_nscan.conf  saned.conf
+agfafocus.conf	     epjitsu.conf    ma1509.conf	 sceptre.conf
+apple.conf	     epson2.conf     magicolor.conf	 sharp.conf
+artec.conf	     epson.conf      matsushita.conf	 sm3840.conf
+artec_eplus48u.conf  epsonds.conf    microtek2.conf	 snapscan.conf
+avision.conf	     fujitsu.conf    microtek.conf	 sp15c.conf
+bh.conf		     genesys.conf    mustek.conf	 st400.conf
+canon630u.conf	     geniusvp2.conf  mustek_pp.conf	 stv680.conf
+canon.conf	     gphoto2.conf    mustek_usb.conf	 tamarack.conf
+canon_dr.conf	     gt68xx.conf     nec.conf		 teco1.conf
+canon_pp.conf	     hp3900.conf     net.conf		 teco2.conf
+cardscan.conf	     hp4200.conf     p5.conf		 teco3.conf
+coolscan2.conf	     hp5400.conf     pie.conf		 test.conf
+coolscan3.conf	     hp.conf	     pieusb.conf	 u12.conf
+coolscan.conf	     hpsj5s.conf     pixma.conf		 umax1220u.conf
+dc210.conf	     hs2p.conf	     plustek.conf	 umax.conf
+dc240.conf	     ibm.conf	     plustek_pp.conf	 umax_pp.conf
+dc25.conf	     kodakaio.conf   qcam.conf		 xerox_mfp.conf
+dell1600n_net.conf   kodak.conf      ricoh.conf
+dll.conf	     leo.conf	     rts8891.conf
+dll.d		     lexmark.conf    s9036.conf
+
+/etc/sasl2:
+libvirt.conf
+
+/etc/schroot:
+buildd	chroot.d  default  desktop  minimal  sbuild  schroot.conf  setup.d
+
+/etc/scite:
+abaqus.properties	 fortran.properties    powershell.properties
+abbrev.properties	 freebasic.properties  ps.properties
+ada.properties		 gap.properties        purebasic.properties
+asl.properties		 haskell.properties    python.properties
+asm.properties		 hex.properties        rebol.properties
+asn1.properties		 html.properties       registry.properties
+au3.properties		 inno.properties       r.properties
+ave.properties		 json.properties       ruby.properties
+avs.properties		 kix.properties        rust.properties
+baan.properties		 latex.properties      SciTEGlobal.properties
+blitzbasic.properties	 lisp.properties       SciTE.properties
+bullant.properties	 lot.properties        scriptol.properties
+caml.properties		 lout.properties       smalltalk.properties
+cmake.properties	 lua.properties        sorcins.properties
+cobol.properties	 matlab.properties     specman.properties
+coffeescript.properties  metapost.properties   spice.properties
+conf.properties		 mmixal.properties     sql.properties
+cpp.properties		 modula3.properties    tacl.properties
+csound.properties	 nimrod.properties     tal.properties
+css.properties		 nncrontab.properties  tcl.properties
+d.properties		 nsis.properties       tex.properties
+ecl.properties		 opal.properties       txt2tags.properties
+eiffel.properties	 oscript.properties    vb.properties
+Embedded.properties	 others.properties     verilog.properties
+erlang.properties	 pascal.properties     vhdl.properties
+escript.properties	 perl.properties       yaml.properties
+flagship.properties	 pov.properties
+forth.properties	 powerpro.properties
+
+/etc/screenlets:
+prefix
+
+/etc/sddm:
+Xsession
+
+/etc/security:
+access.conf	 namespace.conf  pam_mount-stateless-debian-edu.conf
+capability.conf  namespace.d	 pam_mount-winbind-debian-edu.conf
+group.conf	 namespace.init  pwquality.conf
+limits.conf	 opasswd	 sepermit.conf
+limits.d	 pam_env.conf	 time.conf
+
+/etc/selinux:
+config	semanage.conf
+
+/etc/sensors.d:
+
+/etc/sfcb:
+sfcb.cfg
+
+/etc/sgml:
+catalog		   docbook-xml.cat		  openjade.cat
+docbook		   docutils-common.cat		  sgml-data.cat
+docbook.cat	   jade.cat			  xml-core.cat
+docbook-dsssl.cat  libcommons-validator-java.cat
+docbook-xml	   metacity-common.cat
+
+/etc/shutdown-at-night:
+clients-generator
+
+/etc/skel:
+
+/etc/slbackup-php:
+config.php
+
+/etc/smbldap-tools:
+smbldap_bind.conf  smbldap.conf
+
+/etc/snmp:
+snmp.conf
+
+/etc/sound:
+events
+
+/etc/spamassassin:
+65_debian.cf  local.cf	      sa-update-hooks.d  v312.pre  v330.pre  v341.pre
+init.pre      sa-compile.pre  v310.pre		 v320.pre  v340.pre  v342.pre
+
+/etc/speech-dispatcher:
+clients  modules  speechd.conf
+
+/etc/ssh:
+moduli		      ssh_host_dsa_key	      ssh_host_ed25519_key.pub
+ssh_config	      ssh_host_dsa_key.pub    ssh_host_rsa_key
+ssh_config.dpkg-dist  ssh_host_ecdsa_key      ssh_host_rsa_key.pub
+sshd_config	      ssh_host_ecdsa_key.pub  ssh_import_id
+sshd_config.ucf-dist  ssh_host_ed25519_key    ssh_known_hosts
+
+/etc/ssl:
+certs  openssl.cnf  private
+
+/etc/ssmtp:
+revaliases  revaliases.dpkg-dist  ssmtp.conf
+
+/etc/sssd:
+sssd-debian-edu.conf
+
+/etc/stunnel:
+README
+
+/etc/subversion:
+config	servers
+
+/etc/sudoers.d:
+admin	   cpu-freq-user  lgc		    opencl  sbclupdate	x2go
+ardrone    intelstudio	  mmkadmin	    qemu    sphero
+Bluetooth  iptables	  nss-force-update  README  vboxdrv
+
+/etc/sysconfig:
+dsm_sa_ipmi
+
+/etc/sysctl.d:
+30-postgresql-shm.conf	99-ipv4_tunning.conf  README.sysctl
+30-tracker.conf		99-sysctl.conf	      uhd-usrp2.conf
+
+/etc/sysfs.d:
+
+/etc/sysstat:
+sysstat  sysstat.ioconf
+
+/etc/systemd:
+journald.conf  resolved.conf		system.conf	user.conf
+logind.conf    startup_chooser.service	timesyncd.conf
+network        system			user
+
+/etc/terminfo:
+README
+
+/etc/tetrinetx:
+game.conf  game.motd  game.pmotd  game.secure
+
+/etc/texmf:
+dvi2dvi  dvipdfmx  dvipsj  texdoctk   texmf.d
+dvi2ps	 dvips	   tex	   texmf.cnf  web2c
+
+/etc/thunderbird:
+pref
+
+/etc/timidity:
+fluidr3_gm.cfg	freepats.cfg  timidity.cfg
+
+/etc/tmpfiles.d:
+
+/etc/tomatoes:
+config.cfg
+
+/etc/transmission-daemon:
+README.json  settings.json
+
+/etc/tuxpaint:
+tuxpaint.conf
+
+/etc/tuxtype:
+
+/etc/udev:
+hwdb.d	rules.d  udev.conf
+
+/etc/udisks2:
+
+/etc/ufw:
+applications.d
+
+/etc/update-motd.d:
+
+/etc/UPower:
+UPower.conf
+
+/etc/usb_modeswitch.d:
+
+/etc/uwsgi:
+apps-available	apps-enabled
+
+/etc/vde2:
+libvdemgmt  vdecmd
+
+/etc/velocity:
+velocity.properties
+
+/etc/vim:
+gvimrc	vimrc  vimrc.dpkg-dist	vimrc.tiny  vimrc.tiny.dpkg-dist
+
+/etc/virt-builder:
+repos.d
+ls: impossible d'ouvrir le répertoire '/etc/vpnc': Permission non accordée
+
+/etc/w3m:
+config	mailcap
+
+/etc/wicd:
+scripts
+
+/etc/wildmidi:
+wildmidi.cfg
+
+/etc/wireshark:
+init.lua
+
+/etc/wpa_supplicant:
+action_wpa.sh  functions.sh  ifupdown.sh
+
+/etc/X11:
+app-defaults		 it	      russian	  Xresources
+blackbox		 italian      sv	  Xsession
+cursors			 ja	      twm	  Xsession.d
+de			 ja_JP.eucJP  xfireworks  Xsession-debian-edu
+default-display-manager  ja_JP.UTF-8  xinit	  Xsession.dpkg-dist
+fluxbox			 ko_KR.eucKR  xkb	  Xsession.options
+fonts			 mwm	      Xloadimage  xsm
+fr			 openbox      Xorg	  XvMCConfig
+french			 rgb.txt      xorg.conf
+german			 ro	      Xreset
+icewm			 ru	      Xreset.d
+
+/etc/x2go:
+applications		     x2go_logout	     Xresources
+keystrokes.cfg		     x2go_logout.d	     Xsession
+plugin-provider		     x2goplugin-apache.conf  Xsession.d
+x2goagent.options	     x2goserver.conf	     Xsession.dpkg-dist
+x2goagent.options.dpkg-dist  x2gosql		     Xsession.options
+
+/etc/xboard:
+xboard.conf
+
+/etc/xdg:
+accept-languages.codes			      klettres.knsrc
+accountwizard.knsrc			      kmail.antispamrc
+akonadi					      kmail.antivirusrc
+akonadi.categories			      kmines.knsrc
+akonadi-search.categories		      knotes_printing_theme.knsrc
+ark.categories				      korganizer.knsrc
+artikulate.knsrc			      kpat.knsrc
+aurorae.knsrc				      kritarc
+autostart				      kshorturifilterrc
+awesome					      ksieve_script.knsrc
+calendarsupport.categories		      ksslcalist
+cantor_kalgebra.knsrc			      ksysguard.knsrc
+cantor.knsrc				      kturtle.knsrc
+cantor_lua.knsrc			      kwineffect.knsrc
+cantor_octave.knsrc			      kwinscripts.knsrc
+cantor_qalculate.knsrc			      kwinswitcher.knsrc
+cantor_scilab.knsrc			      kwordquiz.knsrc
+cgcgtk3.knsrc				      libfm
+cgcicon.knsrc				      libgravatar.categories
+cgctheme.knsrc				      libkdepim.categories
+colors					      libkgapi.categories
+colorschemes.knsrc			      libksieve.categories
+comic.knsrc				      lookandfeel.knsrc
+discover_ktexteditor_codesnippets_core.knsrc  lxpanel
+dragonplayerrc				      lxsession
+dunst					      mailcommon.categories
+emoticons.knsrc				      marble.knsrc
+eventviews.categories			      menus
+fcitx-skin.knsrc			      messagelib.categories
+filelightrc				      messageviewer_header_themes.knsrc
+ggobi					      okteta-structures.knsrc
+ggobic					      openbox
+grantleetheme.categories		      org_kde_kwin.categories
+icons.knsrc				      parley.knsrc
+kaddressbook_themes.knsrc		      parley-themes.knsrc
+kanagram.knsrc				      pcmanfm
+katarakt.ini				      plasma-themes.knsrc
+katomic.knsrc				      plasmoids.knsrc
+kblocks.knsrc				      qtchooser
+kcardtheme.knsrc			      servicemenu.knsrc
+kdebug.areas				      skrooge_monthly.knsrc
+kdebugrc				      skrooge_unit.knsrc
+kdenlive.categories			      sni-qt.conf
+kdenlive_projectprofiles.knsrc		      step.knsrc
+kdenlive_renderprofiles.knsrc		      subtitlecomposerrc
+kdenlive_titles.knsrc			      systemd
+kdenlive_wipes.knsrc			      taskmanagerrulesrc
+kdepim-addons.categories		      Thunar
+kdepim-apps-lib.categories		      tint2
+kdepim.categories			      tumbler
+kdepimlibs-kioslave.categories		      ui
+kdepim-runtime.categories		      user-dirs.conf
+kdgantt2.categories			      user-dirs.defaults
+kdiamond.knsrc				      virt-builder
+kfontinst.knsrc				      wallpaper.knsrc
+khangman.knsrc				      xcursor.knsrc
+khelpcenter.categories			      xfce4
+khtmlrc					      yakuake.knsrc
+kleopatra.categories
+
+/etc/xfce4:
+defaults.list
+
+/etc/xml:
+catalog		      docbook-xml.xml.old      rarian-compat.xml
+catalog.old	      docbook-xsl-ns.xml       rarian-compat.xml.old
+dia-common.xml	      docbook-xsl-ns.xml.old   resolver
+dia-common.xml.old    docbook-xsl.xml	       sgml-data.xml
+docbook5-xml.xml      docbook-xsl.xml.old      sgml-data.xml.old
+docbook5-xml.xml.old  docutils-common.xml      xml-core.xml
+docbook-xml.xml       docutils-common.xml.old  xml-core.xml.old
+
+/etc/xpdf:
+includes  xpdfrc
+
+/etc/xpilot-ng:
+defaults.txt  password.txt  robots.txt	shipshapes.txt	suibots.txt
+
+/etc/xplanet:
+config	markers  origin  rgb.txt  satellites
+
+/etc/yorick:
+20usrlocal.i  packages	README
+
+/etc/yum:
+pluginconf.d
+
+/etc/zoidrc.d:
+desktop-profiles_zoidrc.pl
+
+/etc/zsh:
+newuser.zshrc.recommended  zlogin  zlogout  zprofile  zshenv  zshrc
+]0;alhoffmann@scytale: ~/espaces/www/proj-techno/usi/7[01;32malhoffmann@scytale[00m:[01;34m~/espaces/www/proj-techno/usi/7[00m$ ./rep /etc/*[K -al
+total 72
+drwxr-xr-x 2 alhoffmann grp30001   152 nov.  22 15:05 .
+drwxr-xr-x 4 alhoffmann grp30001   152 nov.  22 14:42 ..
+-rw-r--r-- 1 alhoffmann grp30001     0 nov.  22 14:42 readme.txt
+-rwxr-xr-x 1 alhoffmann grp30001    19 nov.  22 15:05 rep
+-rw-r--r-- 1 alhoffmann grp30001 65536 nov.  22 15:06 trace
+]0;alhoffmann@scytale: ~/espaces/www/proj-techno/usi/7[01;32malhoffmann@scytale[00m:[01;34m~/espaces/www/proj-techno/usi/7[00m$ exit
+
+Script terminé sur ven. 22 nov. 2019 15:06:06 CET

@@ -1,0 +1,20 @@
+Script démarré sur 2019-11-28 15:03:09+0100
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12[00m$ touch test~
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12[00m$ ls
+[0m[01;32mcmd12[0m  readme.txt  [01;34mtest[0m  test~  typescript
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12[00m$ ./cmd12 [K
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12[00m$ ls
+[0m[01;32mcmd12[0m  readme.txt  [01;34mtest[0m  typescript
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12[00m$ cd test
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12/test[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12/test[00m$ ls
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12/test[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12/test[00m$ touch test~
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12/test[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12/test[00m$ ls
+test~
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12/test[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12/test[00m$ ./cmd12[C./cmd12[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kcd 
+]0;kylo@KyloRen-888: ~[01;32mkylo@KyloRen-888[00m:[01;34m~[00m$ cd Documents//S[K[KS5/projet-tech//usi/[1Pusi/[C[C[C[C[C12/test/
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12/test[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12/test[00m$ cd ..
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12[00m$ ./mc[K[Kcmd12 tset[K[K[Kest
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12[00m$ cd test && ls
+]0;kylo@KyloRen-888: ~/Documents/S5/projet-tech/usi/12/test[01;32mkylo@KyloRen-888[00m:[01;34m~/Documents/S5/projet-tech/usi/12/test[00m$ exit
+
+Script terminé sur 2019-11-28 15:05:21+0100

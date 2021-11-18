@@ -1,0 +1,4 @@
+Je n'ai pas reussi a faire la question du serveur mulit processus.
+Mon fichier python ouvre le fichier json requestf.json et renvoie true ou false dans le fichier answerf.json
+Mon probleme est a surtout été dans le traitement du json dans le java
+  
