@@ -1,3 +1,4 @@
 #!/bin/bash
 
-cp -rf ~/espaces/www/* /net/www/alhoffmann/ && echo "Push succeed !"
+rsync -av  ~/espaces/www/* /net/www/$(whoami)/ --delete-before || exit 1 
+echo "Push réussi !"
