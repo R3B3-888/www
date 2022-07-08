@@ -1,0 +1,130 @@
+\documentclass[a4paper]{article}
+
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+% page style
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule 
+% \vspace{-6pt}
+]
+
+% cv commands
+\newcommand{\cvitem}[2]{
+	\item{
+		\textbf{#1}{ : #2 } 
+		%\vspace{-2pt}
+	}
+}
+\newcommand{\cvsubitem}[2] {\cvitem{#1}{#2} 
+%\vspace{-3pt}
+}
+
+\newcommand{\cvsubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}
+%\vspace{-5pt}
+}
+
+\begin{document}
+
+% Heading
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{{\LARGE Alexis Hoffmann}} & Email : \href{mailto:}{hoffmann.itconsulting@gmail.com}\\
+	\href{https://github.com/R3B3-888}{Github : github.com/R3B3-888} & \href{https://alexis-hoffmann.emi.u-bordeaux.fr}{Portofolio: alexis-hoffmann.emi.u-bordeaux.fr}\\
+	\href{https://gitlab.com/R3B3-888}{Gitlab : gitlab.com/R3B3-888} & \href{https://www.linkedin.com/in/alexis-hoffmann-b026331b7/}{Linkedin : linkedin.com/in/alexis-hoffmann}
+\end{tabular*}
+
+% Education
+\section{~~Formations}
+	\begin{itemize}[leftmargin=*]
+		\cvsubheading{Master en Informatique}{Université de Bordeaux}{Section ASPIC (Autonomous Systems, Perception, Interaction and Control)}{Septembre 2020 - Septembre 2022}
+		\cvsubheading{Licence en Informatique}{Université de Bordeaux}{Obtention du C2I durant la Licence}{Septembre 2017 - Mai 2020}
+		\cvsubheading{Baccalauréat}{François Mauriac - Bordeaux}{Section Scientifique mention Bien}{2017}
+	\end{itemize}
+
+\section{Sommaire des compétences}
+	\begin{itemize}[leftmargin=*]
+		\cvsubitem{Langages}{~~~~~~~Python, C, C\#, Java, Bash/Shell, SQL, AutoLisp, {\LaTeX}, PHP}
+		\cvsubitem{Frameworks}{~~~Scikit-Learn, TensorFlow, Keras, Qt, OpenCV}
+		\cvsubitem{Outils}{~~~~~~~~~~~~~Anaconda, GIT, Gitlab, Ganttproject, Trello, AutoCAD map, Unity, Vim}
+		\cvsubitem{Plateformes}{~~~~Linux, Windows, MacOS, Arduino, Raspberry pi}
+		\cvsubitem{Humaines}{~~~~~~~Agilité, Organisation, Autonomie, Gestion du temps, Esprit d'équipe}
+		\cvsubitem{Langues}{~~~~~~~~~~Anglais courant, Chinois et Arabe notions}
+	\end{itemize}
+
+\section{Expériences}
+	\begin{itemize}[leftmargin=*]
+		\cvsubheading{Stage au LaBRI pour l'association BeesForLife}{Bordeaux}
+{Détection de nid de frelons asiatiques (temps complet)}{Avril 2022 - Présent}
+		\begin{itemize}
+			\cvitem{Technologies utilisés}{Python, Anaconda, Tensorflow, Qt}
+			\cvitem{Interopérabilité de l'application}{Client fonctionnant avec un ordinateur sous MacOS}
+			\cvitem{Dataset unique fourni par le client}{Images couleurs et infra-rouges capturées depuis des drones}
+			\cvitem{Détection à partir d'un modèle CNN}{Mask RCNN et méthode d'élimination de faux positifs}
+			\cvitem{Recherche d'un modèle de l'état de l'art}{Vision Transformer et Vidéo Vision Transformer en développement}
+		\end{itemize}
+		\cvsubheading{Formateur sur AutoCAD avec scripting AutoLISP}{AtiCube}{Formation sur l'utilisation des scripts AutoLISP}{Février 2022}
+		\cvsubheading{Tuteur Linux et bash pour élèves malvoyants}
+{Cellule PHASE à l'Univ. Bordeaux}{Cours de bash avancé pour niveau Licence 3 Pro}{Octobre 2020 - Février 2022}
+		\cvsubheading{Stage à APAVE SUDOUEST SAS}
+{Artigues-Près-Bordeaux - 33370}{Manipulation de base de données - SQL, support client nv. 3}{Mai 2019}
+	\end{itemize}
+
+\section{Projets}
+	\begin{itemize}[leftmargin=*]
+		\cvsubitem{Création d'une application pour manipuler des cadastres}
+{(En cours de developpement) Webscrapping avec api de cadastres.gouv.fr. Objectif de l'appli : conversion automatique de fichiers DXF en DWG sur autant de cadastres voulu. Tech. : Python, Pyinstaller, ODA, PyQt6, AutoCAD Map}
+		\cvsubitem{Essaim de drone résilient effectuant de la surveillance de plage}{POC sur Unity avec développement TDD (Février-Mars 2022). Tech. : C\#, Kanban}
+		\cvsubitem{Essaim de drone en boid}{Implémentation de l'algorithme de boid. Tech. : Unity, C\#}
+		\cvsubitem{Programmation AVR}{Horloge sur des leds fixées sur des pales de ventilateur en vue persistante. Tech. : C, µcontrôleur atmega328p}
+		%\cvsubitem{Drone terrestre suiveur de ligne}{Odométrie, détection de ligne à partir d'un algorithme de reconnaissance de forme et manipulation de servomoteurs}
+		%\cvsubitem{Implémentation du framework EasyPAP}{Jeu life a été codé en MPI, AVX et OpenGL dans le cadre d'une UE de programmation parallèle}
+		\cvsubitem{Création d'un simulateur de Robocub}{Architecture modulaire pour entraîner des modèles d'apprentissage par renforcement. Tech. : Python}
+		\cvsubitem{Recréation d'AlphaGo}{Construction et entraînement du modèle pour un tournoi de 57 autres AlphaGo, fini 3e. Tech. : Keras}
+		%\cvsubitem{Développement d'un site marchand}{POC pour mettre en place avec Angular un premier site utilisable pour la gestion de paniers}
+		%\cvsubitem{Développement d'une application web pour la gestion de matelas de contention pour le service radiologie au CHU de Bordeaux}{Construit avec Symfony en équipe de 3 personnes}
+	\end{itemize}
+
+
+\section{Loisirs et centres d'intérêt}
+
+Tennis, Surf, Ski, Catamaran, cinéma, musculation
+
+
+\end{document}
